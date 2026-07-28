@@ -83,7 +83,11 @@ export async function* runAgentTurn(params: RunAgentTurnParams): AsyncGenerator<
       allowDangerouslySkipPermissions: true,
       includePartialMessages: true,
       resume: params.resumeSessionId,
-      maxTurns: 12,
+      // 20, not the SDK default — a thorough multi-source or troubleshooting
+      // answer can legitimately chain several tool calls (search_manual +
+      // lookup_troubleshooting + a couple of render_artifact calls, each its
+      // own turn); the eval run surfaced a real case that hit a lower cap.
+      maxTurns: 20,
     },
   });
 

@@ -35,11 +35,19 @@ function citedPagesFromText(text: string): number[] {
 
 async function runCase(testCase: BenchmarkCase): Promise<CaseTranscript> {
   let resumeSessionId: string | undefined;
+  // Tool calls accumulate across turns (informational — which tools the
+  // conversation used overall). Artifacts, citations, and text are grading
+  // signal and must be scoped to the LAST turn only: a case's mustContain/
+  // mustNotContain/expectedArtifactTypes/expectedCitationPages checks are
+  // about what the final answer said, not what a stale artifact from an
+  // earlier seed turn happened to contain (e.g. a follow-up that correctly
+  // narrows a checklist in prose, without re-rendering a fresh filtered
+  // artifact, must not be penalized for the *previous* turn's unfiltered one).
   const toolCalls: string[] = [];
-  const artifactTypes: string[] = [];
-  const artifactDataChunks: string[] = [];
-  const citedPages = new Set<number>();
   let finalText = "";
+  let lastTurnArtifactTypes: string[] = [];
+  let lastTurnArtifactDataText = "";
+  let lastTurnCitedPages: number[] = [];
   let turns = 0;
 
   const allPrompts = [...(testCase.conversationSeed ?? []), testCase.question];
@@ -47,29 +55,35 @@ async function runCase(testCase: BenchmarkCase): Promise<CaseTranscript> {
   for (const prompt of allPrompts) {
     turns += 1;
     let turnText = "";
+    const turnArtifactTypes: string[] = [];
+    const turnArtifactDataChunks: string[] = [];
+    const turnCitedPages = new Set<number>();
     for await (const event of runAgentTurn({ prompt, resumeSessionId })) {
       if (event.type === "session") resumeSessionId = event.sessionId;
       if (event.type === "text_delta") turnText += event.text;
       if (event.type === "tool_call") toolCalls.push(event.toolName);
       if (event.type === "artifact") {
-        artifactTypes.push(event.artifact.type);
-        artifactDataChunks.push(JSON.stringify(event.artifact.data));
+        turnArtifactTypes.push(event.artifact.type);
+        turnArtifactDataChunks.push(JSON.stringify(event.artifact.data));
         for (const c of (event.artifact.citations as Array<{ page?: number }>) ?? []) {
-          if (typeof c?.page === "number") citedPages.add(c.page);
+          if (typeof c?.page === "number") turnCitedPages.add(c.page);
         }
       }
       if (event.type === "error") throw new Error(`agent error: ${event.message}`);
     }
     finalText = turnText;
-    for (const p of citedPagesFromText(turnText)) citedPages.add(p);
+    for (const p of citedPagesFromText(turnText)) turnCitedPages.add(p);
+    lastTurnArtifactTypes = turnArtifactTypes;
+    lastTurnArtifactDataText = turnArtifactDataChunks.join(" ");
+    lastTurnCitedPages = [...turnCitedPages];
   }
 
   return {
     finalText,
     toolCalls,
-    artifactTypes,
-    artifactDataText: artifactDataChunks.join(" "),
-    citedPages: [...citedPages],
+    artifactTypes: lastTurnArtifactTypes,
+    artifactDataText: lastTurnArtifactDataText,
+    citedPages: lastTurnCitedPages,
     turns,
   };
 }
