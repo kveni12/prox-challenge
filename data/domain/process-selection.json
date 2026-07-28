@@ -1,0 +1,103 @@
+{
+  "$schema": "process-selection-chart-v1",
+  "title": "How to Choose a Welder",
+  "source": {
+    "doc": "selection-chart",
+    "page": 1,
+    "label": "\"How to Choose a Welder\" process-selection poster included with the machine",
+    "assetPath": "/manual/selection-chart.png"
+  },
+  "note": "This is a general welding-process buying/selection guide, not specific to the OmniPro 220's exact settings. All thickness ranges, skill levels, and application lists below are read directly off the chart image.",
+  "processes": {
+    "FluxCored": {
+      "displayName": "Flux-Cored / FCAW",
+      "skillLevel": "Low",
+      "gasRequired": false,
+      "gasNote": "No-gas required",
+      "materials": ["Steel", "Stainless Steel"],
+      "materialThicknessRange": "18 Gauge to 5/16\"",
+      "typicalApplications": ["Galvanized steel", "General fabrication", "Pipe and tubing", "Maintenance & repair"],
+      "spatterLevel": "More spatter",
+      "highlights": [
+        "Ideal for outdoor or windy conditions",
+        "Forgiving on rusty or dirty steels",
+        "Good out-of-position welding capabilities",
+        "High deposition rates achievable"
+      ]
+    },
+    "MIG": {
+      "displayName": "MIG / GMAW",
+      "skillLevel": "Low",
+      "gasRequired": true,
+      "gasNote": "Gas required (indoor welding recommended)",
+      "materials": ["Steel", "Stainless Steel", "Aluminum (spool gun required)"],
+      "materialThicknessRange": "22 Gauge to 3/8\"",
+      "typicalApplications": ["Sheet metal", "Automotive body", "Tubing", "Structural steel"],
+      "spatterLevel": "Clean / minimal spatter",
+      "highlights": [
+        "Fast production (high welding speeds)",
+        "Easiest to learn",
+        "Clean welds with no slag",
+        "Better control on thin materials"
+      ]
+    },
+    "Stick": {
+      "displayName": "Stick / SMAW",
+      "skillLevel": "Moderate",
+      "gasRequired": false,
+      "gasNote": "No-gas required",
+      "materials": ["Steel", "Stainless Steel", "Castings"],
+      "materialThicknessRange": "10 Gauge to 1/2\"",
+      "typicalApplications": ["Pipe and tubing", "Structural steel", "Pressure vessels", "Maintenance & repair"],
+      "spatterLevel": "More spatter",
+      "highlights": [
+        "Ideal for outdoor or windy conditions",
+        "Forgiving on rusty or dirty steels",
+        "Deep penetration",
+        "Good choice for thicker materials"
+      ]
+    },
+    "TIG": {
+      "displayName": "TIG / GTAW",
+      "skillLevel": "High",
+      "gasRequired": true,
+      "gasNote": "Gas required (indoor welding recommended)",
+      "materials": ["Steel", "Stainless Steel", "Chrome Moly (DC TIG required)", "Aluminum, Magnesium Alloys (AC TIG required)"],
+      "materialThicknessRange": "24 Gauge to 3/16\"",
+      "typicalApplications": ["Stainless steel exhausts", "Bicycle frames", "Thin wall pipe & tubing", "Metal art"],
+      "spatterLevel": "Extremely clean",
+      "highlights": [
+        "Highest quality welds",
+        "Extremely aesthetic weld appearance",
+        "Can be used on a variety of materials",
+        "Precise control"
+      ]
+    }
+  },
+  "migVsFluxCoredComparison": {
+    "note": "Sidebar comparison table on the chart, MIG vs Flux-Cored only.",
+    "rows": [
+      { "attribute": "Uses cored wire", "MIG": false, "FluxCored": true },
+      { "attribute": "Uses solid wire", "MIG": true, "FluxCored": false },
+      { "attribute": "Uses shielding gas", "MIG": true, "FluxCored": false },
+      { "attribute": "Clean welds, minimal spatter", "MIG": true, "FluxCored": false },
+      { "attribute": "Welds over mill scale and rust", "MIG": false, "FluxCored": true },
+      { "attribute": "Requires minimal surface prep", "MIG": false, "FluxCored": true },
+      { "attribute": "Can be used outdoor in windy conditions", "MIG": false, "FluxCored": true },
+      { "attribute": "Deep weld penetration, handles material gaps well", "MIG": false, "FluxCored": true },
+      { "attribute": "Good for thin materials like sheet metal", "MIG": true, "FluxCored": false }
+    ]
+  },
+  "dutyCycleExplainer": {
+    "definition": "The duty cycle is the number of minutes, within a 10-minute period, a welding process can produce the specified welding current without overheating.",
+    "example": { "amps": 165, "dutyCyclePercent": 30, "minutesWelding": 3, "minutesResting": 7 }
+  },
+  "decisionQuestions": [
+    "What is your skill level?",
+    "Will you need shielding gas?",
+    "What type of material will you be welding?",
+    "What is your material thickness?",
+    "What are your typical applications?",
+    "How clean does your weld need to be?"
+  ]
+}

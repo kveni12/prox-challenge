@@ -1,0 +1,381 @@
+{
+  "$schema": "parts-list-v1",
+  "note": "Individual replacement parts use the overall welder UPC 193175422590. Specific part numbers are not provided in the owner's manual; the parts list identifies each component by sequential number (1-61) as shown in the assembly diagram.",
+  "parts": [
+    {
+      "partNumber": "1",
+      "name": "Right Cover",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "2",
+      "name": "Handle Base",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "3",
+      "name": "Handle Cover",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "4",
+      "name": "Hinge-Right",
+      "quantity": 2,
+      "page": 46
+    },
+    {
+      "partNumber": "5",
+      "name": "Hinge-left",
+      "quantity": 2,
+      "page": 46
+    },
+    {
+      "partNumber": "6",
+      "name": "Left Cover",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "7",
+      "name": "Latch",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "8",
+      "name": "Middle Bracket",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "9",
+      "name": "PFC Inductance",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "10",
+      "name": "Spool",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "11",
+      "name": "Remote Control PCB",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "12",
+      "name": "Wire Feeder",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "13",
+      "name": "Aviation Plug Wire",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "14",
+      "name": "Miller Plug Connector",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "15",
+      "name": "Protective Cover",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "16",
+      "name": "Display PCB",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "17",
+      "name": "Screen Cover",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "18",
+      "name": "Screen Frame",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "19",
+      "name": "MIG Welding Torch",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "20",
+      "name": "Front Handle Cover",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "21",
+      "name": "Front Panel",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "22",
+      "name": "Display",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "23",
+      "name": "Knob",
+      "quantity": 2,
+      "page": 46
+    },
+    {
+      "partNumber": "24",
+      "name": "Knob",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "25",
+      "name": "Storage Door",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "26",
+      "name": "Switch",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "27",
+      "name": "American Air Fitting",
+      "quantity": 2,
+      "page": 46
+    },
+    {
+      "partNumber": "28",
+      "name": "Air Connector",
+      "quantity": 3,
+      "page": 46
+    },
+    {
+      "partNumber": "29",
+      "name": "Quick Connector",
+      "quantity": 2,
+      "page": 46
+    },
+    {
+      "partNumber": "30",
+      "name": "Grounding Clamp Assembly",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "31",
+      "name": "Welding Clamp Assembly",
+      "quantity": 1,
+      "page": 46
+    },
+    {
+      "partNumber": "32",
+      "name": "Polarity Cable",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "33",
+      "name": "Output Inductor",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "34",
+      "name": "Air Connector",
+      "quantity": 2,
+      "page": 47
+    },
+    {
+      "partNumber": "35",
+      "name": "Solenoid Valve",
+      "quantity": 2,
+      "page": 47
+    },
+    {
+      "partNumber": "36",
+      "name": "Bottom Housing",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "37",
+      "name": "Board Insulation Paper",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "38",
+      "name": "Main PCB",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "39",
+      "name": "Control PCB",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "40",
+      "name": "Fast Recovery Diode",
+      "quantity": 6,
+      "page": 47
+    },
+    {
+      "partNumber": "41",
+      "name": "Metal Case Air Way",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "42",
+      "name": "Rectifier Radiator Support Bar",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "43",
+      "name": "Rectifier Radiator",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "44",
+      "name": "Fan",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "45",
+      "name": "Transformer",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "46",
+      "name": "IGBT",
+      "quantity": 6,
+      "page": 47
+    },
+    {
+      "partNumber": "47",
+      "name": "Bridge Rectifier Heatsink",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "48",
+      "name": "Fast Recovery Diode",
+      "quantity": 2,
+      "page": 47
+    },
+    {
+      "partNumber": "49",
+      "name": "IGBT Heat Sink Support Bar",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "50",
+      "name": "IGBT Radiator",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "51",
+      "name": "Bridge Rectifiers",
+      "quantity": 2,
+      "page": 47
+    },
+    {
+      "partNumber": "52",
+      "name": "IGBT Radiator",
+      "quantity": 2,
+      "page": 47
+    },
+    {
+      "partNumber": "53",
+      "name": "Fan",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "54",
+      "name": "Y-Type Threaded Tee",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "55",
+      "name": "120 VAC Power Cord",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "56",
+      "name": "Rear Panel",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "57",
+      "name": "Rear Handle Cover",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "58",
+      "name": "American Power Socket",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "59",
+      "name": "Overload Protector",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "60",
+      "name": "Rear Panel",
+      "quantity": 1,
+      "page": 47
+    },
+    {
+      "partNumber": "61",
+      "name": "240 VAC Power Cord",
+      "quantity": 1,
+      "page": 47
+    }
+  ],
+  "orderingInfo": {
+    "upc": "193175422590",
+    "orderingInstructions": "When ordering parts, specify UPC 193175422590. Some parts are listed and shown for illustration purposes only, and are not available individually as replacement parts. Parts may not be interchangeable.",
+    "serviceNote": "All repairs and parts replacements should be undertaken by certified and licensed technicians, not by the buyer.",
+    "source": {
+      "doc": "owner-manual",
+      "page": 46
+    }
+  }
+}

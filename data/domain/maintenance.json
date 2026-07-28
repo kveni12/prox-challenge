@@ -1,0 +1,126 @@
+{
+  "$schema": "maintenance-procedures-v1",
+  "generalInspection": {
+    "timing": "Before each use",
+    "procedure": "Inspect the general condition of the Welder",
+    "checkItems": [
+      "Loose hardware",
+      "Misalignment or binding of moving parts",
+      "Damaged cord / electrical wiring",
+      "Frayed or damaged cables",
+      "Cracked or broken parts",
+      "Any other condition that may affect its safe operation"
+    ],
+    "safetyWarning": "Unplug the Welder, rest the tool on a heat-proof, electrically non-conductive surface, and allow all parts of the Welder to cool thoroughly before service",
+    "source": {
+      "doc": "owner-manual",
+      "page": 41
+    }
+  },
+  "dustRemoval": {
+    "timing": "Periodically",
+    "procedure": "Remove rear panel and blow out interior dust",
+    "steps": [
+      "Have a qualified technician remove the Rear Panel",
+      "Use compressed air to blow out all dust from the interior"
+    ],
+    "note": "This should be performed by a qualified technician",
+    "source": {
+      "doc": "owner-manual",
+      "page": 41
+    }
+  },
+  "afterUseStorage": {
+    "timing": "After every use",
+    "procedure": "Store welder in clean and dry location",
+    "steps": [
+      "Allow Welder to cool down",
+      "Store in a clean and dry location"
+    ],
+    "source": {
+      "doc": "owner-manual",
+      "page": 41
+    }
+  },
+  "migGunNozzleAndTipInspection": {
+    "timing": "Before each use (for optimal MIG/Flux-Cored wire weld quality)",
+    "procedure": "Clean and inspect the MIG Gun Contact Tip and Nozzle",
+    "safetyWarning": "Make sure that the entire MIG Gun is completely cool and that the Power Cord is unplugged from the electrical outlet before proceeding",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Pull the Nozzle to remove it"
+      },
+      {
+        "step": 2,
+        "action": "Scrub the interior of the Nozzle clean with a wire brush"
+      },
+      {
+        "step": 3,
+        "action": "Examine the end of the Nozzle",
+        "inspectionPoints": [
+          "The end should be flat and even",
+          "If the end is uneven, chipped, melted, cracked, or otherwise damaged, the Nozzle will adversely affect the weld and should be replaced"
+        ]
+      },
+      {
+        "step": 4,
+        "action": "Unscrew the Contact Tip counterclockwise and slide it off the welding wire to remove"
+      },
+      {
+        "step": 5,
+        "action": "Scrub the outside of the Tip clean with a wire brush",
+        "detail": "Clean out the inside of the tip with a tip cleaner (sold separately)"
+      },
+      {
+        "step": 6,
+        "action": "Check that the Tip is the proper type for the wire size used"
+      },
+      {
+        "step": 7,
+        "action": "Examine the shape of the hole at the end of the Contact Tip",
+        "inspectionPoints": [
+          "It should be an even circle",
+          "It should not be oblong or have any bulges in it"
+        ]
+      },
+      {
+        "step": 8,
+        "action": "If any problems are noted, replace the Contact Tip",
+        "detail": "Select a new Tip of the correct size for the welding wire used"
+      },
+      {
+        "step": 9,
+        "action": "Reinstall the Tip and securely reinstall the Nozzle as well"
+      }
+    ],
+    "source": {
+      "doc": "owner-manual",
+      "page": 41
+    }
+  },
+  "lcdScreenCoverReplacement": {
+    "procedure": "Replace the LCD Screen Cover",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Carefully pry frame off of Display",
+        "detail": "Insert flathead screwdriver (sold separately) into one of the side slots"
+      },
+      {
+        "step": 2,
+        "action": "Insert a new Screen Cover into Screen Frame",
+        "detail": "Insert with the gap facing downward"
+      },
+      {
+        "step": 3,
+        "action": "Insert frame back into slot on Display",
+        "detail": "Place the top end in first"
+      }
+    ],
+    "source": {
+      "doc": "owner-manual",
+      "page": 41
+    }
+  }
+}

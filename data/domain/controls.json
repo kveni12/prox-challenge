@@ -1,0 +1,298 @@
+{
+  "$schema": "controls-reference-v1",
+  "frontPanelControls": {
+    "mainControlKnob": {
+      "function": "Select process (MIG, TIG, or Stick) and navigate menu screens",
+      "pressAction": "Select highlighted option or move to next screen",
+      "source": {
+        "doc": "owner-manual",
+        "page": 20
+      }
+    },
+    "leftKnob": {
+      "description": "Multipurpose control with process-specific functions",
+      "mig": {
+        "step1": "Turn to set wire diameter",
+        "step2": "Turn to adjust Wire Feed Speed (Amperage)",
+        "source": {
+          "doc": "owner-manual",
+          "page": 20
+        }
+      },
+      "tig": {
+        "step1": "Turn to set rod diameter",
+        "step2": "Turn to adjust output amperage",
+        "source": {
+          "doc": "owner-manual",
+          "page": 30
+        }
+      },
+      "stick": {
+        "step1": "Turn to set electrode diameter",
+        "step2": "Turn to adjust output amperage",
+        "source": {
+          "doc": "owner-manual",
+          "page": 32
+        }
+      }
+    },
+    "rightKnob": {
+      "description": "Multipurpose control with process-specific functions",
+      "mig": {
+        "step1": "Turn to set material thickness",
+        "step2": "Turn to adjust Voltage",
+        "source": {
+          "doc": "owner-manual",
+          "page": 20
+        }
+      },
+      "tig": {
+        "step1": "Turn to set material thickness",
+        "step2": "Turn ON to energize TIG Torch",
+        "source": {
+          "doc": "owner-manual",
+          "page": 30
+        }
+      },
+      "stick": {
+        "step1": "Turn to set material thickness",
+        "step2": "Turn ON to energize Electrode Holder",
+        "source": {
+          "doc": "owner-manual",
+          "page": 32
+        }
+      }
+    },
+    "homeButton": {
+      "function": "Return to main process selection screen",
+      "source": {
+        "doc": "owner-manual",
+        "page": 20
+      }
+    },
+    "backButton": {
+      "function": "Return to previous screen in menu navigation",
+      "source": {
+        "doc": "owner-manual",
+        "page": 20
+      }
+    }
+  },
+  "lcdDisplaySetup": {
+    "mig_fluxCored": {
+      "page": 20,
+      "steps": [
+        "Press Home Button on Control Panel",
+        "Turn Main Control Knob until desired process appears on LCD display screen",
+        "Press Main Control Knob to select process"
+      ],
+      "settings": {
+        "polarityAndGas": {
+          "description": "Cable connection and gas setup per screen",
+          "gasFlowRange": "20-30 SCFH",
+          "source": {
+            "doc": "owner-manual",
+            "page": 20
+          }
+        },
+        "wireDiameterAndThickness": {
+          "wireDiameter": "Turn Left Knob to set wire diameter",
+          "materialThickness": "Turn Right Knob to set material thickness",
+          "source": {
+            "doc": "owner-manual",
+            "page": 20
+          }
+        },
+        "autoWeldSettings": {
+          "description": "Synergic system: machine auto-computes recommended amperage/voltage",
+          "wireFeedSpeed": "Turn Left Knob to adjust Wire Feed Speed (Amperage)",
+          "voltage": "Turn Right Knob to adjust Voltage",
+          "synergicBehavior": "If the Wire Feed Speed or Voltage settings are adjusted manually, the white mark on the line shows the recommended setting for your wire/electrode diameter and workpiece thickness",
+          "source": {
+            "doc": "owner-manual",
+            "page": 20
+          }
+        },
+        "optionalSettings": [
+          {
+            "name": "Run-In WFS",
+            "description": "Adjust wire speed before it contacts workpiece. This setting represents a % of the pre-set wire feed speed (WFS)",
+            "source": {
+              "doc": "owner-manual",
+              "page": 21
+            }
+          },
+          {
+            "name": "Inductance",
+            "description": "Adjust length of arc. Increase for more fluid puddle and flatter bead. Decrease for colder puddle",
+            "source": {
+              "doc": "owner-manual",
+              "page": 21
+            }
+          },
+          {
+            "name": "Spot Timer",
+            "description": "Set timer for spot welding",
+            "source": {
+              "doc": "owner-manual",
+              "page": 21
+            }
+          },
+          {
+            "name": "Recall Setting",
+            "description": "Retrieve saved settings",
+            "source": {
+              "doc": "owner-manual",
+              "page": 21
+            }
+          },
+          {
+            "name": "Save Setting",
+            "description": "Program up to 5 different configurations. Turn Main Control Knob to scroll between 5 available slots. Press Main Control Knob to access OVERWRITE MEMORY SETTING screen and turn Main Control Knob to choose YES selection. Press Main Control Knob to save current Welder settings",
+            "source": {
+              "doc": "owner-manual",
+              "page": 21
+            }
+          }
+        ]
+      }
+    },
+    "tig": {
+      "page": 30,
+      "steps": [
+        "Press Home Button on Control Panel",
+        "Turn Main Control Knob until TIG process appears on LCD display screen",
+        "Press Main Control Knob to select TIG process"
+      ],
+      "settings": {
+        "polarityAndGas": {
+          "description": "Cable connection and gas setup per screen",
+          "gasFlowRange": "10-25 SCFH",
+          "source": {
+            "doc": "owner-manual",
+            "page": 30
+          }
+        },
+        "rodDiameterAndThickness": {
+          "rodDiameter": "Turn Left Knob to set rod diameter",
+          "materialThickness": "Turn Right Knob to set material thickness",
+          "source": {
+            "doc": "owner-manual",
+            "page": 30
+          }
+        },
+        "autoWeldSettings": {
+          "description": "Synergic system: machine auto-computes recommended amperage",
+          "amperage": "Turn Left Knob to adjust output amperage",
+          "torchEnergize": "Turn Right Knob to ON to energize TIG Torch",
+          "source": {
+            "doc": "owner-manual",
+            "page": 30
+          }
+        },
+        "optionalSettings": [
+          {
+            "name": "Recall Setting",
+            "description": "Retrieve saved settings",
+            "source": {
+              "doc": "owner-manual",
+              "page": 31
+            }
+          },
+          {
+            "name": "Save Setting",
+            "description": "Program up to 5 different configurations",
+            "source": {
+              "doc": "owner-manual",
+              "page": 31
+            }
+          }
+        ]
+      }
+    },
+    "stick": {
+      "page": 32,
+      "steps": [
+        "Press Home Button on Control Panel",
+        "Turn Main Control Knob until Stick process appears on LCD display screen",
+        "Press Main Control Knob to select STICK process"
+      ],
+      "settings": {
+        "polaritySettings": {
+          "description": "Plug cables in according to screen",
+          "source": {
+            "doc": "owner-manual",
+            "page": 32
+          }
+        },
+        "electrodeType": {
+          "description": "Turn Main Control Knob to set electrode type",
+          "source": {
+            "doc": "owner-manual",
+            "page": 32
+          }
+        },
+        "electrodeDiameterAndThickness": {
+          "electrodeDiameter": "Turn Left Knob to set electrode diameter",
+          "materialThickness": "Turn Right Knob to set material thickness",
+          "source": {
+            "doc": "owner-manual",
+            "page": 32
+          }
+        },
+        "autoWeldSettings": {
+          "description": "Synergic system: machine auto-computes recommended amperage",
+          "amperage": "Turn Left Knob to adjust output amperage",
+          "holderEnergize": "Turn Right Knob to ON to energize Electrode Holder",
+          "source": {
+            "doc": "owner-manual",
+            "page": 32
+          }
+        },
+        "optionalSettings": [
+          {
+            "name": "Hot Start",
+            "description": "Adjust amperage at start of weld",
+            "source": {
+              "doc": "owner-manual",
+              "page": 33
+            }
+          },
+          {
+            "name": "Arc Force",
+            "description": "Adjust weld penetration and smoothness",
+            "source": {
+              "doc": "owner-manual",
+              "page": 33
+            }
+          },
+          {
+            "name": "Recall Setting",
+            "description": "Retrieve saved settings",
+            "source": {
+              "doc": "owner-manual",
+              "page": 33
+            }
+          },
+          {
+            "name": "Save Setting",
+            "description": "Program up to 5 different configurations",
+            "source": {
+              "doc": "owner-manual",
+              "page": 33
+            }
+          }
+        ]
+      }
+    }
+  },
+  "synergicWeldingSystem": {
+    "description": "The Vulcan OmniPro 220 is a synergic welder, meaning it automatically computes recommended amperage and voltage based on wire diameter, electrode diameter, and material thickness inputs",
+    "visualIndicator": "A white mark on the on-screen line shows the recommended setting for your wire/electrode diameter and workpiece thickness",
+    "manualAdjustment": "You can manually adjust Wire Feed Speed (Amperage) and Voltage settings away from the recommended point, but the white mark remains visible as a reference",
+    "source": {
+      "doc": "owner-manual",
+      "page": 20
+    }
+  }
+}

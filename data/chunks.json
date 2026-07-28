@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "owner-manual-p2-warning-symbols",
+    "doc": "owner-manual",
+    "page": 2,
+    "section": "Safety > Warning Symbols and Definitions",
+    "text": "This manual uses warning symbols to alert you to potential hazards. The Safety alert symbol indicates potential personal injury hazards. Safety messages that follow this symbol must be obeyed to avoid possible injury or death. DANGER indicates a hazardous situation which, if not avoided, will result in death or serious injury. WARNING indicates a hazardous situation which, if not avoided, could result in death or serious injury. CAUTION indicates a hazardous situation which, if not avoided, could result in minor or moderate injury. NOTICE addresses practices not related to personal injury."
+  },
+  {
+    "id": "owner-manual-p2-general-safety",
+    "doc": "owner-manual",
+    "page": 2,
+    "section": "Safety > General Safety",
+    "text": "Before use, read and understand the manufacturer's instructions, Material Safety Data Sheets (MSDS), employer's safety practices, and ANSI Z49.1. Keep the welder out of reach of children and keep children and bystanders away while operating. Place the welder on a stable location before use; if it falls while plugged in, severe injury, electric shock, or fire may result. Do not overreach and keep proper footing and balance at all times. Stay alert and watch what you are doing. Do not use a welder while tired or under the influence of drugs, alcohol, or medication. Avoid unintentional starting by ensuring you are prepared before turning on the welder. Never leave the welder unattended while energized; turn power off if you have to leave."
+  },
+  {
+    "id": "owner-manual-p3-fume-gas-safety",
+    "doc": "owner-manual",
+    "page": 3,
+    "section": "Safety > Fume and Gas Safety",
+    "text": "Welding and plasma cutting produce toxic fumes. Exposure to welding exhaust can increase the risk of developing certain cancers including larynx and lung cancer. Additional health risks from welding fume exposure include early onset of Parkinson's disease, heart disease, ulcers, damage to reproductive organs, inflammation of the small intestine or stomach, kidney damage, and respiratory diseases such as emphysema, bronchitis, or pneumonia. Use natural or forced air ventilation and wear a NIOSH-approved respirator to protect against fumes. Do not use the welder near degreasing or painting operations. Keep your head out of fumes and do not breathe exhaust fumes. Use enough ventilation, exhaust at the arc, or both, to keep fumes and gases out of your breathing zone."
+  },
+  {
+    "id": "owner-manual-p3-confined-area-ventilation",
+    "doc": "owner-manual",
+    "page": 3,
+    "section": "Safety > Fume and Gas Safety > Confined Areas",
+    "text": "Work in a confined area only if it is well-ventilated, or while wearing an air-supplied respirator. Have a recognized specialist in Industrial Hygiene or Environmental Services check the operation and air quality and make recommendations for your specific welding situation. Follow OSHA guidelines for Permissible Exposure Limits (PEL's) and the American Conference of Governmental Industrial Hygienists recommendations for Threshold Limit Values (TLV's) for fumes and gases."
+  },
+  {
+    "id": "owner-manual-p3-arc-ray-safety",
+    "doc": "owner-manual",
+    "page": 3,
+    "section": "Safety > Arc Ray Safety",
+    "text": "Arc rays can injure eyes and burn skin. Wear ANSI-approved welding eye protection featuring at least a number 10 shade lens rating. Wear leather leggings, fire-resistant shoes or boots during use. Do not wear pants with cuffs, shirts with open pockets, or any clothing that can catch and hold molten metal or sparks. Keep clothing free of grease, oil, solvents, or any flammable substances. Wear dry, insulating gloves and protective clothing. Wear an approved head covering to protect the head and neck, including aprons, capes, sleeves, shoulder covers, and bibs designed and approved for welding procedures. Wear an approved welding jacket or long sleeves to protect forearms from radiation burns. When welding overhead or in confined spaces, wear flame-resistant ear plugs or ear muffs to keep sparks out of ears."
+  },
+  {
+    "id": "owner-manual-p4-electrical-safety",
+    "doc": "owner-manual",
+    "page": 4,
+    "section": "Safety > Electrical Safety",
+    "text": "Electric shock can kill. Turn off, disconnect power, and discharge the electrode to ground before setting down torch/electrode holder and before service. Do not touch energized electrical parts or wear wet or damaged gloves. Do not touch electrode holder, electrode, welding torch, or welding wire with bare hands. Connect to a grounded, GFCI-protected power supply only. Do not use the welder near water or damp objects. People with pacemakers should consult their physician before use, as electromagnetic fields in close proximity to heart pacemakers could cause pacemaker interference or failure. Do not expose welders to rain or wet conditions, as water entering a welder will increase the risk of electric shock."
+  },
+  {
+    "id": "owner-manual-p4-electrical-cord-safety",
+    "doc": "owner-manual",
+    "page": 4,
+    "section": "Safety > Electrical Safety > Cord Management",
+    "text": "Do not abuse the power cord. Never use the cord for carrying, pulling, or unplugging the welder. Keep the cord away from heat, oil, sharp edges, or moving parts. Damaged or entangled cords increase the risk of electric shock. Do not use the welder outdoors. Insulate yourself from the workpiece and ground. Use nonflammable, dry insulating material if possible, or use dry rubber mats, dry wood or plywood, or other dry insulating material large enough to cover your full area of contact with the work or ground. The welding machine must be connected to the power source in accordance with applicable electrical codes."
+  },
+  {
+    "id": "owner-manual-p4-fire-safety",
+    "doc": "owner-manual",
+    "page": 4,
+    "section": "Safety > Fire Safety",
+    "text": "Arc and slag can cause fire. Clear away or protect flammable objects. Remove or make safe all combustible materials for a radius of 35 feet (10 meters) around the work area. Use fire-resistant material to cover or block all open doorways, windows, cracks, and other openings. Keep an ABC-type fire extinguisher near the work area and know how to use it. Maintain a safe working environment by keeping the work area well lit with adequate surrounding workspace, free of obstructions, grease, oil, trash, and other debris. Do not operate welders in atmospheres containing dangerously reactive or flammable liquids, gases, vapors, or dust. Provide adequate ventilation in work areas to prevent accumulation of such substances."
+  },
+  {
+    "id": "owner-manual-p4-fire-watch-procedures",
+    "doc": "owner-manual",
+    "page": 4,
+    "section": "Safety > Fire Safety > Fire Watch",
+    "text": "If working on a metal wall, ceiling, etc., prevent ignition of combustibles on the other side by moving the combustibles to a safe location. If relocation of combustibles is not possible, designate someone to serve as a fire watch, equipped with a fire extinguisher, during the welding process and for at least one half hour after the welding is completed. Do not weld or cut on materials having a combustible coating or combustible internal structure without an approved method for eliminating the hazard. Do not dispose of hot slag in containers holding combustible materials. After welding, make a thorough examination for evidence of fire and be aware that visible smoke or flame may not be present for some time after the fire has started."
+  },
+  {
+    "id": "owner-manual-p5-container-hazards",
+    "doc": "owner-manual",
+    "page": 5,
+    "section": "Safety > Fire Safety > Pressurized Containers",
+    "text": "Do not apply heat to a container that has held an unknown substance or a combustible material whose contents, when heated, can produce flammable or explosive vapors. Clean and purge containers before applying heat. Vent closed containers, including castings, before preheating, welding, or cutting."
+  },
+  {
+    "id": "owner-manual-p5-welder-use-care",
+    "doc": "owner-manual",
+    "page": 5,
+    "section": "Safety > Welder Use and Care",
+    "text": "Do not use the welder if the switch does not turn it on and off. Any welder that cannot be controlled with the switch is dangerous and must be repaired. Disconnect the plug from the power source before making any adjustments, changing accessories, or storing the welder. Such preventive safety measures reduce the risk of starting the welder accidentally. Prevent unintentional starting by ensuring the switch is in the off-position before connecting to power source or moving the welder. Carrying or energizing welders that have the switch on invites accidents. Store idle welders out of the reach of children and do not allow persons unfamiliar with the welder or instructions to operate it. Use the welder and accessories in accordance with instructions, taking into account working conditions and the work to be performed. Do not use the welder for pipe thawing."
+  },
+  {
+    "id": "owner-manual-p5-maintenance-safety",
+    "doc": "owner-manual",
+    "page": 5,
+    "section": "Safety > Maintenance",
+    "text": "Maintain the welder by checking for misalignment or binding of moving parts, breakage of parts, and any other condition that may affect the welder's operation. If damaged, have the welder repaired before use, as many accidents are caused by poorly maintained welders. Have your welder serviced by a qualified repair person using only identical replacement parts to ensure the welder's safety is maintained. Maintain labels and nameplates on the welder, as they carry important information. If unreadable or missing, contact Harbor Freight Tools for a replacement. Unplug the welder from its electrical outlet before any inspection, maintenance, or cleaning procedures."
+  },
+  {
+    "id": "owner-manual-p5-cylinder-safety",
+    "doc": "owner-manual",
+    "page": 5,
+    "section": "Safety > Gas Shielded Welding - Cylinder Safety",
+    "text": "Cylinders can explode when damaged. Do not weld on a pressurized or closed cylinder. Do not allow an electrode holder, electrode, welding torch, or welding wire to touch the cylinder. Keep cylinders away from any electrical circuits, including welding circuits. Keep protective cap in place over the valve except when the cylinder is in use. Use only correct gas shielding equipment designed specifically for the type of welding you will do and maintain this equipment properly. Protect gas cylinders from heat, being struck, physical damage, slag, flames, sparks, and arcs. Use proper procedures to move cylinders."
+  },
+  {
+    "id": "owner-manual-p6-symbology",
+    "doc": "owner-manual",
+    "page": 6,
+    "section": "Safety > Symbology",
+    "text": "The manual uses various symbols to indicate important information: Wire Feed (Speed), Workpiece Ground Cable, Torch Cable, Overheat Shutdown Indicator, Cooling Fan, Housing Ground Point. Technical abbreviations include: VAC (Volts Alternating Current), A (Amperes), OCV (Open Circuit Voltage), KVA (Kilovolt Amperes = Volts / 1000 * Amperes), IPM (Inches Per Minute), AWG (American Wire Gauge). Hazard symbols indicate: Electric Shock Hazard (do not touch energized parts), Inhalation Hazard (keep head out of fumes and use proper ventilation), Fire Hazard (keep flammable materials away during welding), Arc Ray Hazard (wear welding helmet with properly rated filter lens), and Pacemaker Hazard (welding processes may interfere with pacemakers)."
+  },
+  {
+    "id": "owner-manual-p6-grounding-information",
+    "doc": "owner-manual",
+    "page": 6,
+    "section": "Safety > Grounding",
+    "text": "To prevent electric shock and death from incorrect grounding wire connection, check with a qualified electrician if you are in doubt about whether the outlet is properly grounded. Do not use the welder if the power cord or plug is damaged; have it repaired by a service facility before use. The green wire inside the cord is connected to the grounding system in the welder. The green wire must be the only wire connected to the welder's grounding system and must never be attached to an electrically live terminal. Never leave the grounding wire disconnected or modify the power cord plug in any way. Make sure the tool is connected to an outlet having the same configuration as the plug."
+  },
+  {
+    "id": "owner-manual-p6-extension-replacement-cords",
+    "doc": "owner-manual",
+    "page": 6,
+    "section": "Safety > Extension and Replacement Cords",
+    "text": "Do not use an extension cord on this welder. Use only one of the supplied power cords for this welder or an identical replacement cord. Do not install a thinner or longer cord on this welder. Do not patch cords of any length together for this item, as patches may allow moisture to penetrate the insulation, resulting in electric shock. If the tool must be reconnected for use on a different type of electric circuit, the reconnection should be made by qualified service personnel, and the tool should comply with all local codes and ordinances after reconnection."
+  },
+  {
+    "id": "owner-manual-p7-mig-specifications",
+    "doc": "owner-manual",
+    "page": 7,
+    "section": "Specifications > MIG",
+    "text": "MIG welding specifications for the Vulcan OmniPro 220. Power input options: 120 VAC / 60 Hz or 240 VAC / 60 Hz. Current input at output: 20.8 A at 100 A (120V) or 25.5 A at 200 A (240V). Welding current range: 30-140 A (120V) or 30-220 A (240V). Rated duty cycles: 40% @ 100 A with 100% @ 75 A (120V) or 25% @ 200 A with 100% @ 115 A (240V). Maximum open circuit voltage (OCV): 86 VDC. Weldable materials: Mild steel, stainless steel, and aluminum (with optional spool gun). Welding wire capacity: solid core 0.025\"/0.030\"/0.035\" or flux-cored 0.030\"/0.035\"/0.045\". Wire speed: 50-500 IPM. Wire spool capacity: up to 12 lb spool."
+  },
+  {
+    "id": "owner-manual-p7-tig-specifications",
+    "doc": "owner-manual",
+    "page": 7,
+    "section": "Specifications > TIG",
+    "text": "TIG welding specifications for the Vulcan OmniPro 220. Power input options: 120 VAC / 60 Hz or 240 VAC / 60 Hz. Current input at output: 20.6 A at 125 A (120V) or 15.6 A at 175 A (240V). Welding current range: 10 A-125 A (120V) or 10 A-175 A (240V). Rated duty cycles: 40% @ 125 A with 100% @ 90 A (120V) or 30% @ 175 A with 100% @ 105 A (240V). Maximum open circuit voltage (OCV): 86 VDC. Weldable materials: Mild steel, stainless steel, and chrome moly."
+  },
+  {
+    "id": "owner-manual-p7-stick-specifications",
+    "doc": "owner-manual",
+    "page": 7,
+    "section": "Specifications > Stick",
+    "text": "Stick welding specifications for the Vulcan OmniPro 220. Power input options: 120 VAC / 60 Hz or 240 VAC / 60 Hz. Current input at output: 19.5 A at 80 A (120V) or 23.7 A at 175 A (240V). Welding current range: 10 A-80 A (120V) or 10 A-175 A (240V). Rated duty cycles: 40% @ 80 A with 100% @ 60 A (120V) or 25% @ 175 A with 100% @ 100 A (240V). Maximum open circuit voltage (OCV): 86 VDC. Weldable materials: Mild steel and stainless steel."
+  },
+  {
+    "id": "owner-manual-p8-front-panel-controls",
+    "doc": "owner-manual",
+    "page": 8,
+    "section": "Controls > Front Panel Controls",
+    "text": "The Vulcan OmniPro 220 front panel includes the following controls and connections: Wire feed power cable input, Power switch (on/off), LCD display screen for settings and diagnostics, Right knob for adjusting material thickness and voltage/torch control, Left knob for setting wire diameter/rod diameter/electrode diameter and adjusting feed speed/amperage, Main control knob for selecting process and navigating menus, Home button for returning to main screen, Back button for returning to previous screen, Spool gun gas outlet (for optional spool gun), MIG gun/spool gun cable socket, Negative socket for ground clamp or TIG torch cable, Positive socket for wire feed or electrode holder cable, and storage compartment. Note: When using an optional spool gun (sold separately), connect the spool gun gas hose to the spool gun gas outlet."
+  },
+  {
+    "id": "owner-manual-p9-interior-controls",
+    "doc": "owner-manual",
+    "page": 9,
+    "section": "Controls > Interior Controls",
+    "text": "Inside the welder door are several mechanical controls: Cold wire feed switch for manually feeding wire during setup, idler arm (spring-loaded) that can be moved to apply tension to the wire, wire feed mechanism that drives the welding wire, wire spool where the welding wire is loaded, spool knob for securing large wire spools, feed tensioner knob for adjusting wire feed pressure, wire inlet liner that guides the wire into the feed mechanism, feed roller knob for accessing and changing the feed roller, wire feed control socket (internal connection), and foot pedal socket (inside welder) for optional TIG foot pedal connection."
+  },
+  {
+    "id": "owner-manual-p10-wire-spool-installation-small",
+    "doc": "owner-manual",
+    "page": 10,
+    "section": "MIG / Flux-Cored Wire Welding > Wire Spool Installation",
+    "text": "Before proceeding with wire spool installation, turn the power switch off and unplug the welder. Remove the protective foam and cardboard from the welder before setup. For 1-2 pound wire spool installation: Pull up on the door latch to open the door. Remove the wingnut and spacer. If replacing a spool, remove the old spool and all remaining wire from the liners. Place the new wire spool over the spool spindle and against the spool brake pad. To prevent wire feed problems, set the spool so that it will unwind clockwise. Replace the spacer over the spool spindle and secure the spool in place with the wingnut. Important: If the wire spool can spin freely, the wingnut is too loose. This will cause the welding wire to unravel and unspool which can cause tangling and feeding problems."
+  },
+  {
+    "id": "owner-manual-p11-wire-spool-installation-large",
+    "doc": "owner-manual",
+    "page": 11,
+    "section": "MIG / Flux-Cored Wire Welding > Wire Spool Installation > 10-12 lb Spools",
+    "text": "For 10-12 pound wire spool installation: Remove the wingnut and spacer. If replacing a spool, remove the old spool and all remaining wire from the liners. Place the spool adapter over the spool spindle and against the spool brake pad. Place the new wire spool over the adapter and line up the pin on the adapter with the hole in the spool. To prevent wire feed problems, set the spool so that it will unwind clockwise. Replace the spacer over the spool spindle and secure the spool in place with the wingnut. Important: If the wire spool can spin freely, the wingnut is too loose. This will cause the welding wire to unravel and unspool which can cause tangling and feeding problems. Screw the spool knob into the spool adapter. Turn the feed tensioner knob counterclockwise to loosen it enough to pull it down and remove tension. The spring-loaded idler arm will move up as shown."
+  },
+  {
+    "id": "owner-manual-p12-feed-roller-instructions",
+    "doc": "owner-manual",
+    "page": 12,
+    "section": "MIG / Flux-Cored Wire Welding > Feed Roller Instructions",
+    "text": "Check that the feed roller is correct for the type of wire being used (solid core or flux-cored) and that it is turned to properly match the wire size marked on the wire spool. Unscrew the feed roller knob counterclockwise. Remove the feed roller knob to expose the feed roller. Flip or replace the feed roller as needed and confirm that it is the correct roller for the type of wire being used and that the number showing is the same as the wire diameter on the spool. Screw the feed roller knob back into place to secure the feed roller. The feed roller has two sides: solid core side with V-groove channels for 0.025\" and 0.030\"/0.035\", and flux-cored side with knurled groove channels for 0.030\"/0.035\" and 0.045\"."
+  },
+  {
+    "id": "owner-manual-p13-gun-cable-connection",
+    "doc": "owner-manual",
+    "page": 13,
+    "section": "MIG / Flux-Cored Wire Welding > Gun Cable and Wire Feed Setup",
+    "text": "Loosen the knob on the wire feed mechanism, then insert the gun cable connector through the hole on the welder front and into the socket on the wire feed. Ensure that the gun cable connector is fully inserted into the socket on the wire feed mechanism as shown. If the connector is not fully inserted, the gas connection will leak, preventing shielding gas from reaching the welding arc. Do not overtighten the knob to prevent damage. Insert the wire feed control cable through the hole on the welder front and connect it to the wire feed control socket inside the machine, then tighten the lock ring on the cable plug. Note that the plug on the cable fits into the socket in one specific orientation only."
+  },
+  {
+    "id": "owner-manual-p13-polarity-setup",
+    "doc": "owner-manual",
+    "page": 13,
+    "section": "MIG / Flux-Cored Wire Welding > Polarity Setup",
+    "text": "For DCEN (Direct Current Electrode Negative) polarity setup used for flux-cored (gasless) welding: Plug the ground clamp cable into the positive (+) socket. Plug the wire feed power cable into the negative (-) socket. Twist cables clockwise all the way to lock in place. For DCEP (Direct Current Electrode Positive) polarity setup used for solid core (gas shielded) welding: Plug the ground clamp cable into the negative (-) socket. Plug the wire feed power cable into the positive (+) socket. Twist cables clockwise all the way to lock in place."
+  },
+  {
+    "id": "owner-manual-p14-gas-cylinder-setup",
+    "doc": "owner-manual",
+    "page": 14,
+    "section": "MIG / Flux-Cored Wire Welding > Gas Cylinder Setup",
+    "text": "For solid core (gas shielded) MIG welding, determine which type of shielding gas would be appropriate for the welding you will do by referring to the settings chart on the inside of the welder door. With assistance, set the gas cylinder (not included) onto a cabinet or cart near the welder and secure it with two straps (not included) to prevent tipping. Remove the cylinder's cap. Stand to the side of the valve opening, then open the valve briefly to blow dust and dirt from the valve opening, then close the cylinder valve. Locate the regulator (included) and close its valve until it is loose, then thread the regulator onto the cylinder and wrench-tighten the connection. When using C100 shielding gas, connect the enclosed CGA 580/320 adapter to the inlet connection of the regulator and wrench-tighten. Attach the gas hose (included) to the regulator's outlet and the welder's gas inlet, wrench-tightening both connections."
+  },
+  {
+    "id": "owner-manual-p15-wire-loading",
+    "doc": "owner-manual",
+    "page": 15,
+    "section": "MIG / Flux-Cored Wire Welding > Wire Loading and Tension",
+    "text": "Securely hold onto the end of the welding wire and keep tension on it during wire loading. If this is not done, the welding wire will unravel and unspool which can cause tangling and feeding problems. Cut off all bent and crimped wire. The cut end must have no burrs or sharp edges; cut again if needed. Keep tension on the wire and guide at least 12 inches of wire into the wire inlet liner and feed guide. Make sure the welding wire is resting in the groove of the feed roller, then push the wire idler arm down and swing the feed tensioner up to latch it across the tip of the arm. After the wire is held by the tensioner, you may release it. The tension should be 3-5 for solid wire and 2-3 for flux-cored wire. Too much force on flux-cored wire will crush it and may cause feeding issues. Stainless steel wire is less flexible than other welding wire, so keep the gun cable straight while feeding stainless steel wire."
+  },
+  {
+    "id": "owner-manual-p16-cold-wire-feed",
+    "doc": "owner-manual",
+    "page": 16,
+    "section": "MIG / Flux-Cored Wire Welding > Cold Wire Feed Testing",
+    "text": "Plug either 120 VAC or 240 VAC power cord into power input socket (plug will only fit one way). Do not touch the gun's trigger. Plug the power cord into a properly grounded, GFCI-protected 120 VAC (20 amp rated) or 240 VAC receptacle that matches the plug and turn the power switch ON. The circuit must be equipped with delayed action-type circuit breaker or fuses. Point the gun away from all objects. Press and hold the cold wire feed switch until the wire feeds through two inches. The wire liner may come out with the welding wire; this is normal, just push the wire liner back into the gun. If the wire does not feed properly and the spool is stationary, turn OFF and unplug the welder and slightly tighten the feed tensioner clockwise before retrying."
+  },
+  {
+    "id": "owner-manual-p17-wire-tension-check",
+    "doc": "owner-manual",
+    "page": 17,
+    "section": "MIG / Flux-Cored Wire Welding > Wire Drive Tension Check",
+    "text": "To check the wire's drive tension, press and hold the trigger to feed the wire against a piece of wood from 2 to 3 inches away. After pressing the trigger, the wire will stop feeding after 3 seconds if there is no arc. Check tension for less than 3 seconds. If the wire stops instead of bending, unplug the welder, slightly tighten the feed tensioner clockwise, and try again. If the wire bends from the feed pressure, then the tension is set properly. Before proceeding, turn OFF the power switch and unplug the power cord from its electrical outlet. Turn OFF the power switch and unplug the power cord from its electrical outlet. Close the door and make sure it is securely latched."
+  },
+  {
+    "id": "owner-manual-p17-nozzle-contact-tip-install",
+    "doc": "owner-manual",
+    "page": 17,
+    "section": "MIG / Flux-Cored Wire Welding > Nozzle and Contact Tip Installation",
+    "text": "Select a contact tip that is compatible with the welding wire used. Slide the contact tip over the wire and thread it clockwise into the MIG gun, then tighten the contact tip. Replace the nozzle and cut the wire off at 1/2\" from the tip to achieve the correct 1/2\" stickout (contact tip to work distance)."
+  },
+  {
+    "id": "owner-manual-p17-spool-gun-setup",
+    "doc": "owner-manual",
+    "page": 17,
+    "section": "MIG / Flux-Cored Wire Welding > Optional Spool Gun Setup",
+    "text": "To set up the optional spool gun (sold separately), plug the ground clamp cable into the negative (-) socket and plug the wire feed power cable into the positive (+) socket. Twist cables clockwise all the way to lock in place. Loosen the knob on the wire feed mechanism, then insert the spool gun cable connector through the hole on the welder front and into the socket on the wire feed. Ensure that the cable connector is fully inserted and tighten the knob securely. If the connector is not fully inserted, the gas connection will leak, preventing shielding gas from reaching the welding arc. Do not overtighten the knob to prevent damage. Insert the wire feed control cable through the hole on the welder front and connect to the wire feed control socket inside the machine, then tighten the lock ring on the cable plug. Connect the gas hose on the spool gun cable connector to the spool gun gas outlet on the front of the welder. Refer to gas setup procedures for further shielding gas setup information. Refer to the spool gun manual for operational information."
+  },
+  {
+    "id": "owner-manual-p18-basic-wire-welding-intro",
+    "doc": "owner-manual",
+    "page": 18,
+    "section": "MIG / Flux-Cored Wire Welding > Basic Wire Welding Overview",
+    "text": "Flux-cored wire welding is used to weld mild steel and stainless steel without shielding gas. MIG welding uses solid wire and shielding gas, and is used to weld mild steel and stainless steel. MIG welding can also be used to weld thinner workpieces than flux-cored welding can. Aluminum welding can be performed with an optional spool gun (sold separately) using aluminum wire and shielding gas. Good welding takes a degree of skill and experience. Practice a few sample welds on scrap before welding your first project. Additional practice periods are recommended whenever you weld a different thickness of material, a different type of material, a different type of connection, or using a different process. Make practice welds on pieces of scrap to practice technique before welding anything of value. Protective gear must be worn when using the welder including minimum shade number 10 full face shield or welding mask, ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire-resistant work clothes without pockets."
+  },
+  {
+    "id": "owner-manual-p19-setting-up-weld",
+    "doc": "owner-manual",
+    "page": 19,
+    "section": "MIG / Flux-Cored Wire Welding > Setting Up The Weld",
+    "text": "Make practice welds on pieces of scrap the same thickness as your intended workpiece to practice technique before welding anything of value. Clean the weld surfaces thoroughly with a wire brush or angle grinder; there must be no rust, paint, oil, or other materials on the weld surfaces, only bare metal. Use clamps (not included) to hold the workpieces in position so that you can concentrate on proper welding technique. The distance (if any) between the two workpieces must be controlled properly to allow the weld to hold both sides securely while allowing the weld to penetrate fully into the joint. The edges of thicker workpieces may need to be chamfered (or beveled) to allow proper weld penetration. When welding equipment on a vehicle, disconnect the vehicle battery power from both the positive connection and the ground before welding to prevent damage to some vehicle electrical systems. Clamp the ground cable to bare metal on the workpiece near the weld area, or to metal work bench where the workpiece is clamped."
+  },
+  {
+    "id": "owner-manual-p19-duty-cycle-explanation",
+    "doc": "owner-manual",
+    "page": 19,
+    "section": "MIG / Flux-Cored Wire Welding > Duty Cycle",
+    "text": "Avoid damage to the welder by not welding for more than the prescribed duty cycle time. The duty cycle defines the number of minutes, within a 10 minute period, during which a given welder can produce a particular welding current without overheating. For example, a welder with a 40% duty cycle at 100 A welding current must be allowed to rest for at least 6 minutes after every 4 minutes of continuous welding. Failure to carefully observe duty cycle limitations can easily over-stress a welder's power generation system contributing to premature welder failure. The welder has an internal thermal protection system to help prevent this sort of over-stress. When the welder overheats, it automatically shuts down and a warning screen appears in the LCD display window. The welder automatically returns to service after cooling off. Should this occur, rest the MIG gun on an electrically non-conductive, heat-proof surface such as a concrete slab, well clear of the ground clamp, and allow the welder to cool with the power switch on so that the internal fan will help cool the welder."
+  },
+  {
+    "id": "owner-manual-p19-rated-duty-cycle",
+    "doc": "owner-manual",
+    "page": 19,
+    "section": "MIG / Flux-Cored Wire Welding > Rated Duty Cycle Chart",
+    "text": "Rated duty cycle for MIG welding at 120 VAC: 100% continuous use at 75 A, or 40% use at 100 A for 10 continuous minutes (4 minutes welding / 6 minutes resting). Rated duty cycle for MIG welding at 240 VAC: 100% continuous use at 115 A, or 25% use at 200 A for 10 continuous minutes (2-1/2 minutes welding / 7-1/2 minutes resting). When normal operation resumes, use shorter welding periods and longer rest periods to prevent needless wear."
+  },
+  {
+    "id": "owner-manual-p20-mig-settings-initial",
+    "doc": "owner-manual",
+    "page": 20,
+    "section": "MIG / Flux-Cored Wire Welding > Settings Setup",
+    "text": "Press the home button on the control panel. Turn the main control knob until the desired process appears on the LCD display screen. Press the main control knob to select the process. Note: Press main control knob to go to next screen. Press back button to return to the previous screen. Adjust settings for the selected process. For polarity and gas settings: Plug cables in according to screen. Connect gas according to screen. Set SCFH between 20-30 for MIG welding. For wire diameter and material thickness: Turn left knob to set wire diameter. Turn right knob to set material thickness."
+  },
+  {
+    "id": "owner-manual-p20-mig-auto-weld-settings",
+    "doc": "owner-manual",
+    "page": 20,
+    "section": "MIG / Flux-Cored Wire Welding > Auto Weld Settings",
+    "text": "The Vulcan OmniPro 220 is a synergic welder that automatically computes recommended amperage and voltage based on wire diameter and material thickness inputs. For auto weld settings: Turn left knob to adjust wire feed speed (amperage). Turn right knob to adjust voltage. If the wire feed speed or voltage settings are adjusted manually, the white mark on the line shows the recommended setting for your wire/electrode diameter and workpiece thickness. This visual indicator helps you optimize settings around the machine's recommended point."
+  },
+  {
+    "id": "owner-manual-p21-mig-optional-settings",
+    "doc": "owner-manual",
+    "page": 21,
+    "section": "MIG / Flux-Cored Wire Welding > Optional Settings",
+    "text": "Press the main control knob to enter optional settings. Turn the main control knob until desired setting appears on screen. Press the main control knob to select desired setting. Turn the main control knob to adjust the setting. Available optional settings include: Run-In WFS - Adjust wire speed before it contacts workpiece. This setting represents a % of the pre-set wire feed speed (WFS). Inductance - Adjust length of arc. Increase for more fluid puddle and flatter bead. Decrease for colder puddle. Spot Timer - Set timer for spot welding. Recall Setting - Retrieve saved settings. Save Setting - Program up to 5 different configurations. Turn main control knob to scroll between 5 available slots. Press main control knob to access OVERWRITE MEMORY SETTING screen and turn main control knob to choose YES selection. Press main control knob to save current welder settings. Note: The initial settings may need to be adjusted after stopping and carefully inspecting the weld. Proper welding takes experience."
+  },
+  {
+    "id": "owner-manual-p21-gas-shielded-solid-core",
+    "doc": "owner-manual",
+    "page": 21,
+    "section": "MIG / Flux-Cored Wire Welding > Gas Shielded Solid-Core Wire",
+    "text": "For gas shielded solid-core wire MIG welding, open the gas cylinder valve all the way. Set the flow gauge to the SCFH value indicated on the settings chart. Important safety note: Do not open gas without proper ventilation. Fix gas leaks immediately. Shielding gas can displace air and cause rapid loss of consciousness and death. Shielding gas without carbon dioxide can be even more hazardous because asphyxiation can start without feeling shortness of breath."
+  },
+  {
+    "id": "owner-manual-p22-basic-wire-technique",
+    "doc": "owner-manual",
+    "page": 22,
+    "section": "MIG / Flux-Cored Wire Welding > Basic Welding Technique",
+    "text": "Press and hold the trigger and contact the area to be welded with electrode wire to ignite arc. For a narrow weld, you can usually draw the wire in a steady straight line. This is called a stringer bead. For a wider weld, draw the wire back and forth across the joint. This is called a weave bead and takes practice to perform properly. Direct the welding wire straight into the joint. This gives an angle of 90 degrees (straight up and down) for butt (end to end) welds, and an angle of 45 degrees for fillet (T-shaped) welds. The contact tip should remain within 1/2\" of the work surface. This distance is called CTWD - Contact Tip to Work Distance."
+  },
+  {
+    "id": "owner-manual-p22-gun-angles",
+    "doc": "owner-manual",
+    "page": 22,
+    "section": "MIG / Flux-Cored Wire Welding > MIG Gun Angles",
+    "text": "For MIG welding using solid wire and shielding gas, the end of the MIG gun should be tilted so that the wire is angled anywhere in-between straight on and 15 degrees away from the direction you are welding. The amount of tilt is called the push angle. When using flux-cored wire without shielding gas, the end of the MIG gun should be tilted so that the wire is angled anywhere in-between straight on and 15 degrees in the direction you are welding. The amount of tilt is called the drag angle."
+  },
+  {
+    "id": "owner-manual-p23-after-welding-inspection",
+    "doc": "owner-manual",
+    "page": 23,
+    "section": "MIG / Flux-Cored Wire Welding > After Practice Welding",
+    "text": "After welding a test weld on a piece of scrap for a few seconds, stop and check your progress. Clean, then compare your weld's appearance with the diagrams and descriptions in the welding tips section. After making any necessary adjustments, continue to weld while carefully following the duty cycle guidelines. If the welder is used too long, a warning screen appears in the LCD display window and the unit automatically shuts down. The welder automatically returns to service after cooling off. Should this occur, rest the MIG gun on an electrically non-conductive, heat-proof surface such as a concrete slab, away from the ground clamp. Allow the welder to cool with the power switch on so that the internal fan will help cool the welder. When welding is complete, set the MIG gun down on a heat-proof, electrically non-conductive surface. Turn the power switch OFF. Allow the welder to cool down, then unplug the power cord."
+  },
+  {
+    "id": "owner-manual-p23-cleanup-storage",
+    "doc": "owner-manual",
+    "page": 23,
+    "section": "MIG / Flux-Cored Wire Welding > Cleanup and Storage",
+    "text": "Remove the ground clamp from the workpiece or table and disconnect the MIG gun. Respool wire by clipping wire, removing gas nozzle/contact tip on MIG gun, releasing idler arm on wire feed mechanism, and rotating the wire spool counterclockwise. Be sure to securely hold wire as it is being respooled because the end of wire has a tendency to quickly unravel once it clears the wire feeder. For MIG welding only: Close the shielding gas cylinder valve securely. Remove regulator and replace cap. Disconnect gas hose from welder. Store and secure gas cylinder."
+  },
+  {
+    "id": "owner-manual-p24-tig-setup-cables",
+    "doc": "owner-manual",
+    "page": 24,
+    "section": "TIG / Stick Welding > TIG Setup - Connect Cables",
+    "text": "For TIG welding setup, plug the ground clamp cable into the positive socket and twist clockwise all the way to lock in place. Plug the TIG torch cable (TIG torch sold separately) into the negative socket and twist clockwise all the way to lock in place. Insert the foot pedal cable (foot pedal sold separately) through the hole on the welder front and connect to the foot pedal socket inside the machine. Secure by turning the collar clockwise until tight. For connecting the shielding gas hose, refer to the connect shielding gas section on the next page."
+  },
+  {
+    "id": "owner-manual-p24-tig-shielding-gas",
+    "doc": "owner-manual",
+    "page": 24,
+    "section": "TIG / Stick Welding > TIG Shielding Gas Setup",
+    "text": "With assistance, place a 100% argon cylinder (not included) onto a cabinet or cart near the welder and secure it in place with two straps (not included) to prevent tipping. Remove the cylinder's cap. Stand to the side of the valve opening, then open the valve briefly to blow dust and dirt from the valve opening. Close the cylinder valve. Locate the regulator (included) and close its valve until it is loose, then thread the regulator onto the cylinder and wrench-tighten the connection. Connect the shielding gas hose on the TIG torch cable connector to the regulator's outlet and wrench-tighten the connection."
+  },
+  {
+    "id": "owner-manual-p25-tig-power-cord",
+    "doc": "owner-manual",
+    "page": 25,
+    "section": "TIG / Stick Welding > TIG Power Cord Connection",
+    "text": "Plug either 120 VAC or 240 VAC power cord into the power input socket. Note that the plug will only fit one way. Important warning: Do not plug the cord into the wall outlet at this time."
+  },
+  {
+    "id": "owner-manual-p26-sharpen-tungsten",
+    "doc": "owner-manual",
+    "page": 26,
+    "section": "TIG / Stick Welding > Sharpen Tungsten Electrode",
+    "text": "To avoid electrode contamination, dedicate a fine grit grinding wheel exclusively to electrode grinding. Important safety warning: Some electrodes may have materials added to them that are hazardous to breathe. Wear a respirator and ANSI-approved safety goggles when grinding an electrode. Shut off the welder and wait until the electrode and torch have cooled enough to handle. Remove back cap. Pull the electrode from the front of the torch (pulling it from rear will damage the collet and create burrs on the electrode). If the electrode has dulled or been otherwise contaminated, use pliers or a suitable tool to grip the electrode above the contaminated section and snap off the end of the electrode. Lightly press the electrode tip against the surface of the grinding wheel at an angle. Rotate the electrode tip until a blunt point is formed. The conical portion of the ideal tip will be 2-1/2 times as long as the electrode diameter. Re-insert the electrode into the collet with the tip protruding 1/8\"-1/4\" beyond the ceramic nozzle, then re-tighten the back cap."
+  },
+  {
+    "id": "owner-manual-p26-assemble-tig-torch",
+    "doc": "owner-manual",
+    "page": 26,
+    "section": "TIG / Stick Welding > Assemble TIG Torch",
+    "text": "Consult the settings chart on top of the welder to determine the proper tungsten electrode size to be used with the thickness of material to be welded. Match collet and collet body sizes to the tungsten electrode size. Thread the collet body into the front of the torch. Make sure the ceramic nozzle size is appropriate for the application. Thread the ceramic nozzle onto the collet body. Insert the collet into the back of the torch and into the collet body. Insert the tungsten electrode into the collet on the front of the torch. Lock the electrode in place with the back cap. The electrode should protrude 1/8\" to 1/4\" beyond the ceramic nozzle."
+  },
+  {
+    "id": "owner-manual-p27-stick-setup-cables",
+    "doc": "owner-manual",
+    "page": 27,
+    "section": "TIG / Stick Welding > Stick Setup - Connect Cables",
+    "text": "For stick welding setup, plug the ground clamp cable into the negative socket and twist clockwise all the way to lock in place. Plug the electrode holder cable into the positive socket and twist clockwise all the way to lock in place."
+  },
+  {
+    "id": "owner-manual-p28-basic-tig-stick-intro",
+    "doc": "owner-manual",
+    "page": 28,
+    "section": "TIG / Stick Welding > Basic TIG / Stick Welding Overview",
+    "text": "DC TIG welding is used to weld mild steel and stainless steel using a TIG rod and shielding gas. AC TIG welding is used to weld aluminum using a TIG rod and shielding gas. Stick welding is used to weld mild steel and stainless steel using a stick electrode without shielding gas. Good welding takes a degree of skill and experience. Practice a few sample welds on scrap before welding your first project. Additional practice periods are recommended whenever you weld a different thickness of material, a different type of material, a different type of connection, or using a different process. Make practice welds on pieces of scrap to practice technique before welding anything of value. Protective gear must be worn when using the welder including minimum shade number 10 full face shield or welding mask, ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire-resistant work clothes without pockets. Light from the arc can cause permanent damage to the eyes and skin. Do not breathe arc fumes."
+  },
+  {
+    "id": "owner-manual-p29-tig-duty-cycle",
+    "doc": "owner-manual",
+    "page": 29,
+    "section": "TIG / Stick Welding > Duty Cycle - TIG",
+    "text": "TIG welder rated duty cycles for 120 VAC: 40% use at 125 A or 100% continuous use at 90 A for 10 continuous minutes (4 minutes welding / 6 minutes resting). TIG welder rated duty cycles for 240 VAC: 30% use at 175 A or 100% continuous use at 105 A for 10 continuous minutes (approximately 3 minutes welding / 7 minutes resting). Avoid damage to the welder by not welding for more than the prescribed duty cycle time. The duty cycle defines the number of minutes, within a 10 minute period, during which a given welder can produce a particular welding current without overheating. Failure to carefully observe duty cycle limitations can easily over-stress a welder's power generation system."
+  },
+  {
+    "id": "owner-manual-p29-stick-duty-cycle",
+    "doc": "owner-manual",
+    "page": 29,
+    "section": "TIG / Stick Welding > Duty Cycle - Stick",
+    "text": "Stick welder rated duty cycles for 120 VAC: 40% use at 125 A or 100% continuous use at 90 A for 10 continuous minutes (4 minutes welding / 6 minutes resting). Stick welder rated duty cycles for 240 VAC: 30% use at 175 A or 100% continuous use at 105 A for 10 continuous minutes (3 minutes welding / 7 minutes resting). This welder has an internal thermal protection system to help prevent over-stress. When the welder overheats, it automatically shuts down and a warning screen appears in the LCD display window. The welder automatically returns to service after cooling off. When normal operation resumes, use shorter welding periods and longer rest periods to prevent needless wear."
+  },
+  {
+    "id": "owner-manual-p30-tig-welding-process",
+    "doc": "owner-manual",
+    "page": 30,
+    "section": "TIG / Stick Welding > TIG Welding Process Setup",
+    "text": "Turn the power switch to the OFF position, then plug the welder into a properly grounded, GFCI-protected 120 VAC (20 amp rated) outlet or 240 V outlet. The circuit must be equipped with delayed action-type circuit breaker or fuses. Set the TIG torch down on a nonconductive, nonflammable surface away from any grounded objects. Turn the power switch ON. Press the home button on the control panel. Turn the main control knob until the TIG process appears on the LCD display screen. Press the main control knob to select the TIG process. Note: Press main control knob to go to next screen. Press back button to return to the previous screen."
+  },
+  {
+    "id": "owner-manual-p30-tig-settings",
+    "doc": "owner-manual",
+    "page": 30,
+    "section": "TIG / Stick Welding > TIG Welding Settings",
+    "text": "Adjust settings for the TIG process. For polarity and gas settings: Plug cables in according to screen. Connect gas according to screen. Set SCFH between 10-25 for TIG welding. For rod diameter and material thickness: Turn left knob to set rod diameter. Turn right knob to set material thickness. For auto weld settings: Turn left knob to adjust output amperage. Turn right knob to ON to energize TIG torch. Warning: Welder is now energized and open circuit voltage is present."
+  },
+  {
+    "id": "owner-manual-p31-tig-optional-settings",
+    "doc": "owner-manual",
+    "page": 31,
+    "section": "TIG / Stick Welding > TIG Optional Settings",
+    "text": "Press the main control knob to enter optional settings. Turn the main control knob until the desired setting appears on screen. Press the main control knob to select desired setting. Turn the main control knob to adjust the setting. Available optional settings: Recall Setting - Retrieve saved settings. Save Setting - Program up to 5 different configurations. Note: The initial settings may need to be adjusted after stopping and carefully inspecting the weld. Proper welding takes experience."
+  },
+  {
+    "id": "owner-manual-p31-tig-arc-initiation",
+    "doc": "owner-manual",
+    "page": 31,
+    "section": "TIG / Stick Welding > TIG Arc Initiation and Technique",
+    "text": "Hold the TIG torch in one gloved hand and the TIG rod (sold separately) in the other gloved hand. Maintain a constant distance between the tungsten electrode and the workpiece: between 1 and 1.5 times the diameter of the electrode. Open the valve on the TIG torch to start gas flow. To initiate the welding arc, push the foot pedal and touch the electrode to the work piece and lift. If not using a foot pedal, touch the electrode to the work piece and lift. When the welding puddle is hot enough, tilt the torch backward about 10-15 degrees from vertical and move it back slightly. Add TIG rod material as needed to the front end of the weld puddle. Alternate between pushing the torch/weld puddle and adding TIG rod material. Important note: Remove the TIG rod each time the electrode is advanced, but do not remove it from the gas shield. This prevents oxidation from contaminating the weld."
+  },
+  {
+    "id": "owner-manual-p31-tig-completion",
+    "doc": "owner-manual",
+    "page": 31,
+    "section": "TIG / Stick Welding > TIG Weld Completion and Cleanup",
+    "text": "When finished welding, release the foot pedal but keep the torch on the weld puddle until the weld solidifies. If not using a foot pedal, pull the torch away from the work piece until the welding arc is broken, then return the gas coverage until the weld solidifies. Close the valve on the TIG torch and turn the right knob to OFF to turn off power to the TIG torch. Set the TIG torch down on a nonconductive, nonflammable surface away from any grounded objects. Turn the power switch OFF. To prevent accidents, after use: Allow the welder to cool down. Unplug the welder's power cord from the outlet. Remove the ground clamp from the workpiece or table. Disconnect TIG torch, ground, and foot pedal cables. Close the gas cylinder's valve securely, remove regulator and replace cap. Disconnect gas hose from welder. Store and secure gas cylinder. Clean, then store welder and its accessories indoors out of children's reach."
+  },
+  {
+    "id": "owner-manual-p32-stick-welding-process",
+    "doc": "owner-manual",
+    "page": 32,
+    "section": "TIG / Stick Welding > Stick Welding Process Setup",
+    "text": "Turn the power switch to the OFF position, then plug the welder into a properly grounded, GFCI-protected 120 VAC (20 amp rated) outlet or 240 V outlet. The circuit must be equipped with delayed action-type circuit breaker or fuses. Set the electrode holder down on a nonconductive, nonflammable surface away from any grounded objects. Turn the power switch ON. Press the home button on the control panel. Turn the main control knob until the Stick process appears on the LCD display screen. Press the main control knob to select the STICK process. Note: Press main control knob to go to next screen. Press back button to return to the previous screen."
+  },
+  {
+    "id": "owner-manual-p32-stick-settings",
+    "doc": "owner-manual",
+    "page": 32,
+    "section": "TIG / Stick Welding > Stick Welding Settings",
+    "text": "Adjust settings for the STICK process. For polarity setting: Plug cables in according to screen. For electrode type: Turn main control knob to set electrode type. For electrode diameter and material thickness: Turn left knob to set electrode diameter. Turn right knob to set material thickness. For auto weld settings: Turn left knob to adjust output amperage. Turn right knob to ON to energize electrode holder. Warning: Welder is now energized and open circuit voltage is present. The LCD display will show Hot Start and Arc Force optional settings available."
+  },
+  {
+    "id": "owner-manual-p33-stick-optional-settings",
+    "doc": "owner-manual",
+    "page": 33,
+    "section": "TIG / Stick Welding > Stick Optional Settings",
+    "text": "Press the main control knob to enter optional settings. Turn the main control knob until the desired setting appears on screen. Press the main control knob to select desired setting. Turn the main control knob to adjust the setting. Available optional settings: Hot Start - Adjust amperage at start of weld. Arc Force - Adjust weld penetration and smoothness. Recall Setting - Retrieve saved settings. Save Setting - Program up to 5 different configurations. Note: The initial settings may need to be adjusted after stopping and carefully inspecting the weld. Proper welding takes experience."
+  },
+  {
+    "id": "owner-manual-p33-stick-arc-ignition",
+    "doc": "owner-manual",
+    "page": 33,
+    "section": "TIG / Stick Welding > Stick Arc Ignition and Technique",
+    "text": "Place the bare metal end of the stick electrode (sold separately) inside the jaws of the electrode holder. Stroke the workpiece lightly to ignite the arc. Tips for igniting the arc: Tap the surface with the electrode, stroke the surface with the electrode, or strike the surface like a match with the electrode. After the arc ignites: Lift the electrode off the workpiece the same distance as the diameter of the bare metal end. Tilt the electrode back 10 to 20 degrees. Drag the electrode to the back end of the weld puddle to deposit material as needed. After practice welding on scrap, stop and check your progress. Perform the strike test according to the strike test procedure on page 34. After making any necessary adjustments, continue to weld while carefully following the duty cycle guidelines."
+  },
+  {
+    "id": "owner-manual-p33-stick-completion",
+    "doc": "owner-manual",
+    "page": 33,
+    "section": "TIG / Stick Welding > Stick Weld Completion and Cleanup",
+    "text": "When finished welding, lift the electrode from the workpiece, then set the electrode holder down on a nonconductive, nonflammable surface away from any grounded objects. Turn the power switch OFF. To prevent accidents, after use: Allow the welder to cool down. Unplug the welder's power cord from the outlet. Remove the ground clamp. Disconnect the electrode holder and ground cables. Clean, then store the welder and its accessories indoors out of children's reach."
+  },
+  {
+    "id": "owner-manual-p34-strike-test",
+    "doc": "owner-manual",
+    "page": 34,
+    "section": "Welding Tips > Strike Test",
+    "text": "A test weld on a piece of scrap can be tested by using the strike test procedure. Important safety warning: Wear ANSI-approved safety goggles during this procedure. This test will damage the weld it is performed on. This test is only an indicator of weld technique and is not intended to test working welds. After two scraps have been welded together and the weld has cooled, clamp one scrap in a sturdy vise. Stay clear from underneath while you strike the opposite scrap with a heavy hammer, preferably a dead-blow hammer. A good weld will deform but not break. A poor weld will be brittle and snap at the weld."
+  },
+  {
+    "id": "owner-manual-p34-cleaning-weld",
+    "doc": "owner-manual",
+    "page": 34,
+    "section": "Welding Tips > Cleaning the Weld",
+    "text": "Important safety warning: Continue to wear ANSI-approved safety goggles and protective wear when cleaning a weld. Sparks or chips may fly when cleaning. A weld from flux-cored wire welding or stick welding will be covered by slag. Use a chipping hammer to knock this off. Be careful not to damage the weld or base material. Use a wire brush to further clean the weld or use an angle grinder (sold separately) to shape the weld."
+  },
+  {
+    "id": "owner-manual-p35-wire-penetration-overview",
+    "doc": "owner-manual",
+    "page": 35,
+    "section": "Welding Tips > Wire Weld Diagnosis - Penetration",
+    "text": "Proper penetration: The weld is visible underneath and bulges slightly on top. This represents ideal heat for the workpiece thickness. Inadequate penetration: The weld does not penetrate the joint fully, just on the surface. This indicates the workpiece is not hot enough. Excess penetration or burn-through: Weld droops on top and underneath, or falls through entirely, making a hole. This indicates the workpiece is too hot. To increase workpiece heat and increase penetration (for welding thicker workpieces): Increase weld current, decrease travel speed, use faster wire feed, or use shorter CTWD. To reduce workpiece heat and limit penetration (for welding thinner workpieces): Decrease weld current, increase travel speed, use slower wire feed, or use longer CTWD."
+  },
+  {
+    "id": "owner-manual-p35-wire-penetration-solutions",
+    "doc": "owner-manual",
+    "page": 35,
+    "section": "Welding Tips > Wire Weld Penetration Solutions",
+    "text": "Workpiece overheating causes excess penetration: Reduce wire feed speed, decrease weld current. Travel speed too slow causes excess penetration: Increase travel speed and ensure that travel speed is kept steady. Excessive material at weld causes excess penetration: Reduce wire feed speed. Insufficient weld heat causes inadequate penetration: Reduce travel speed, increase weld current. Workpieces too thick/close causes inadequate penetration: Bevel thick workpieces, allow slight gap, and weld in several passes. Insufficient weld material causes inadequate penetration: Increase wire feed speed. Incorrect welding technique causes inadequate penetration: Maintain 1/2\" or less CTWD, keep arc on leading edge of weld puddle, hold MIG gun at proper angles."
+  },
+  {
+    "id": "owner-manual-p36-wire-weld-not-adhering",
+    "doc": "owner-manual",
+    "page": 36,
+    "section": "Welding Tips > Wire Weld - Not Adhering Properly",
+    "text": "Weld not adhering properly occurs when gaps are present between the weld and previous bead or between the weld and workpiece. Incorrect welding technique causes this: Place stringer bead at correct place in joint. Adjust workpiece position or weld angle to permit proper welding to bottom of piece. Pause briefly at sides during weave bead. Keep arc on leading edge of weld puddle. Hold MIG gun at proper angles. Insufficient weld heat causes non-adhesion: Increase current, increase wire feed speed. Dirty workpiece causes non-adhesion: Clean workpiece down to bare metal. Insufficient weld material causes non-adhesion: Increase wire feed speed. Workpiece gap too narrow causes non-adhesion: Widen groove or increase bevel."
+  },
+  {
+    "id": "owner-manual-p36-wire-weld-bend-joint",
+    "doc": "owner-manual",
+    "page": 36,
+    "section": "Welding Tips > Wire Weld - Bend at Joint",
+    "text": "Bend at joint in wire welds can be caused by improper clamping or excessive heat. For improper clamping: Clamp workpieces securely, make tack welds to hold workpieces. For excessive heat: Weld a small portion and allow to cool before proceeding, increase travel speed, reduce wire feed speed."
+  },
+  {
+    "id": "owner-manual-p36-wire-weld-slag",
+    "doc": "owner-manual",
+    "page": 36,
+    "section": "Welding Tips > Wire Weld - Coat of Slag",
+    "text": "Slag is a necessary part of a flux-cored wire weld. It shields the weld from impurities. Clean off the slag with a chipping hammer and wire brush after welding. Gas-shielded MIG welds are protected by the shielding gas and do not need slag to protect them."
+  },
+  {
+    "id": "owner-manual-p37-wire-burn-through",
+    "doc": "owner-manual",
+    "page": 37,
+    "section": "Welding Tips > Wire Weld - Burn-Through",
+    "text": "Wire weld burn-through occurs when base material melts away, leaving a hole in the weld. Workpiece overheating causes burn-through: Reduce current and/or wire feed speed. Travel speed too slow causes burn-through: Increase travel speed and ensure that travel speed is kept steady. Excessive material at weld causes burn-through: Reduce wire feed speed."
+  },
+  {
+    "id": "owner-manual-p37-wire-crooked-wavy",
+    "doc": "owner-manual",
+    "page": 37,
+    "section": "Welding Tips > Wire Weld - Crooked/Wavy Bead",
+    "text": "Wire weld crooked or wavy bead defects are caused by inaccurate welding or inconsistent travel speed. Inaccurate welding causes this: Use two hands or rest hand on steady surface. Inconsistent travel speed causes this: Maintain steady travel speed. CTWD too long causes this: Reduce CTWD."
+  },
+  {
+    "id": "owner-manual-p37-wire-porosity",
+    "doc": "owner-manual",
+    "page": 37,
+    "section": "Welding Tips > Wire Weld - Porosity",
+    "text": "Wire weld porosity consists of small cavities or holes in the bead. Incorrect polarity: Check that polarity is set correctly for the type of welding. Insufficient shielding gas (MIG only): Increase flow of gas, clean nozzle, maintain proper CTWD. Incorrect shielding gas (MIG only): Use shielding gas recommended by wire supplier. Dirty workpiece or welding wire: Clean workpiece down to bare metal. Make certain that wire is clean and free from oil, coatings, and other residues. Inconsistent travel speed: Maintain steady travel speed. CTWD too long: Reduce CTWD."
+  },
+  {
+    "id": "owner-manual-p37-wire-spatter",
+    "doc": "owner-manual",
+    "page": 37,
+    "section": "Welding Tips > Wire Weld - Excessive Spatter",
+    "text": "Wire weld excessive spatter defects occur when fine spatter is normal but spatter that is grainy and large is a problem. Dirty workpiece or welding wire: Clean workpiece down to bare metal. Make certain that wire is clean and free from oil, coatings, and other residues. Incorrect polarity: Check that polarity is set correctly for the type of welding. Insufficient shielding gas (MIG only): Increase flow of gas, clean nozzle, maintain proper CTWD. Wire feeding too fast: Reduce wire feed speed. CTWD too long: Reduce CTWD."
+  },
+  {
+    "id": "owner-manual-p38-stick-penetration-overview",
+    "doc": "owner-manual",
+    "page": 38,
+    "section": "Welding Tips > Stick Weld Diagnosis - Penetration",
+    "text": "Stick weld proper penetration: The weld is visible underneath and bulges slightly on top. This represents ideal heat. Stick weld inadequate penetration: The weld does not contact the joint fully, just on the surface. This indicates insufficient heat. Stick weld excess penetration or burn-through: The weld droops on top and underneath, or falls through entirely, making a hole. This indicates excessive heat. To increase workpiece heat for thicker workpieces: Increase current, weld more slowly. To reduce workpiece heat for thinner workpieces: Decrease current, weld more quickly."
+  },
+  {
+    "id": "owner-manual-p39-stick-penetration-solutions",
+    "doc": "owner-manual",
+    "page": 39,
+    "section": "Welding Tips > Stick Weld Penetration Solutions",
+    "text": "For excess penetration or burn-through in stick welds: Workpiece overheating requires reducing current. Welding speed too slow requires increasing welding speed and ensuring it is kept steady. For inadequate penetration in stick welds: Incorrect welding technique - keep arc on leading edge of weld puddle, hold torch at proper angles. Insufficient weld heat - slow down so fill material has time to melt into the weld location, increase current. Workpieces too thick/close - bevel thick workpieces, allow slight gap, and weld in several passes. Insufficient weld material - increase amount of fill material."
+  },
+  {
+    "id": "owner-manual-p39-stick-weld-not-adhering",
+    "doc": "owner-manual",
+    "page": 39,
+    "section": "Welding Tips > Stick Weld - Not Adhering Properly",
+    "text": "Stick weld not adhering properly occurs when gaps are present between the weld and previous bead or between the weld and workpiece. Incorrect welding technique: Place stringer bead at correct place in joint. Adjust workpiece position or weld angle to permit proper welding to bottom of piece. Keep arc on leading edge of weld puddle. Hold electrode and fill material at proper angles. Insufficient weld heat: Increase current. Dirty workpiece: Clean workpiece down to bare metal. Insufficient weld material: Increase amount of fill material. Distance between workpieces too large: Decrease distance and increase bevel."
+  },
+  {
+    "id": "owner-manual-p39-stick-bend-joint",
+    "doc": "owner-manual",
+    "page": 39,
+    "section": "Welding Tips > Stick Weld - Bend at Joint",
+    "text": "Stick weld bend at joint is caused by improper clamping or excessive heat. For improper clamping: Clamp workpieces securely, make tack welds to hold workpieces. For excessive heat: Weld a small portion and allow to cool before proceeding, increase weld speed."
+  },
+  {
+    "id": "owner-manual-p40-stick-slag",
+    "doc": "owner-manual",
+    "page": 40,
+    "section": "Welding Tips > Stick Weld - Coat of Slag",
+    "text": "Slag is a necessary part of a stick weld. It shields the weld from impurities. Clean off the slag with the chipping hammer and wire brush after welding."
+  },
+  {
+    "id": "owner-manual-p40-stick-porosity",
+    "doc": "owner-manual",
+    "page": 40,
+    "section": "Welding Tips > Stick Weld - Porosity",
+    "text": "Stick weld porosity consists of small cavities or holes in the bead. Dirty workpiece or fill material: Clean workpiece down to bare metal. Make certain that fill material and electrode are clean and free from oil, coatings, and other residues. Inconsistent welding speed: Maintain steady weld speed."
+  },
+  {
+    "id": "owner-manual-p40-stick-crooked-wavy",
+    "doc": "owner-manual",
+    "page": 40,
+    "section": "Welding Tips > Stick Weld - Crooked/Wavy Bead",
+    "text": "Stick weld crooked or wavy bead defects are caused by inaccurate welding or inconsistent welding speed. Inaccurate welding: Use two hands or rest hand on steady surface. Inconsistent welding speed: Maintain steady weld speed."
+  },
+  {
+    "id": "owner-manual-p40-stick-spatter",
+    "doc": "owner-manual",
+    "page": 40,
+    "section": "Welding Tips > Stick Weld - Excessive Spatter",
+    "text": "Stick weld excessive spatter occurs when fine spatter is normal but spatter that is grainy and large is a problem. Dirty workpiece or fill material: Clean workpiece down to bare metal. Make certain that fill material and electrode are clean and free from oil, coatings, and other residues."
+  },
+  {
+    "id": "owner-manual-p40-stick-burn-through",
+    "doc": "owner-manual",
+    "page": 40,
+    "section": "Welding Tips > Stick Weld - Burn-Through",
+    "text": "Stick weld burn-through occurs when base material melts away, leaving a hole in the weld. Workpiece overheating: Reduce current. Welding speed too slow: Increase welding speed and ensure that welding speed is kept steady. Excessive material at weld: Reduce amount of fill material."
+  },
+  {
+    "id": "owner-manual-p41-maintenance-intro",
+    "doc": "owner-manual",
+    "page": 41,
+    "section": "Maintenance > Before Each Use Inspection",
+    "text": "Before each use, inspect the general condition of the welder. Check for loose hardware, misalignment or binding of moving parts, damaged cord / electrical wiring, frayed or damaged cables, cracked or broken parts, and any other condition that may affect its safe operation. Periodically, have a qualified technician remove the rear panel and use compressed air to blow out all dust from the interior. After every use, store in a clean and dry location. For optimal MIG / Flux-Cored wire weld quality, clean and inspect the MIG gun contact tip and nozzle before each use. Important safety warning: Unplug the welder, rest the tool on a heat-proof, electrically non-conductive surface, and allow all parts of the welder to cool thoroughly before service."
+  },
+  {
+    "id": "owner-manual-p41-mig-nozzle-tip-cleaning",
+    "doc": "owner-manual",
+    "page": 41,
+    "section": "Maintenance > MIG Gun Nozzle and Contact Tip Cleaning",
+    "text": "Make sure that the entire MIG gun is completely cool and that the power cord is unplugged from the electrical outlet before proceeding. Pull the nozzle to remove it. Scrub the interior of the nozzle clean with a wire brush. Examine the end of the nozzle. The end should be flat and even. If the end is uneven, chipped, melted, cracked, or otherwise damaged, the nozzle will adversely affect the weld and should be replaced. Unscrew the contact tip counterclockwise and slide it off the welding wire to remove. Scrub the outside of the tip clean with a wire brush. Clean out the inside of the tip with a tip cleaner (sold separately). Check that the tip is the proper type for the wire size used. Examine the shape of the hole at the end of the contact tip. It should be an even circle and should not be oblong or have any bulges in it. If any problems are noted, replace the contact tip. Select a new tip of the correct size for the welding wire used. Reinstall the tip and securely reinstall the nozzle as well."
+  },
+  {
+    "id": "owner-manual-p41-lcd-screen-cover",
+    "doc": "owner-manual",
+    "page": 41,
+    "section": "Maintenance > Replacing the LCD Screen Cover",
+    "text": "To replace the LCD screen cover: Carefully pry the frame off of the display by inserting a flathead screwdriver (sold separately) into one of the side slots. Insert a new screen cover into the screen frame with the gap facing downward. Insert the frame back into the slot on the display with the top end being placed in first."
+  },
+  {
+    "id": "owner-manual-p42-troubleshooting-mig-intro",
+    "doc": "owner-manual",
+    "page": 42,
+    "section": "Troubleshooting > MIG / Flux-Cored Welding Introduction",
+    "text": "Important! Be certain to shut off the welder, disconnect it from power, and discharge the MIG gun to ground before adjusting, cleaning, or repairing the unit. The troubleshooting table on the following pages lists common problems with MIG and flux-cored welding, their possible causes, and likely solutions. Follow all safety precautions whenever diagnosing or servicing the equipment."
+  },
+  {
+    "id": "owner-manual-p44-troubleshooting-tig-stick-intro",
+    "doc": "owner-manual",
+    "page": 44,
+    "section": "Troubleshooting > TIG / Stick Welding Introduction",
+    "text": "Important! Be certain to shut off the welder, disconnect it from power, and discharge the electrode to ground before adjusting, cleaning, or repairing the unit. The troubleshooting table on the following pages lists common problems with TIG and stick welding, their possible causes, and likely solutions. Follow all safety precautions whenever diagnosing or servicing the equipment."
+  },
+  {
+    "id": "owner-manual-p45-wiring-schematic",
+    "doc": "owner-manual",
+    "page": 45,
+    "section": "Wiring Schematic",
+    "text": "A detailed wiring schematic is provided on page 45 showing the internal electrical connections of the Vulcan OmniPro 220. This includes the AC input, rectifier, IGBT circuitry, transformers, cooling fans, solenoid valves, and MCU board connections. The schematic is intended as a reference for qualified repair technicians and should not be serviced by untrained users."
+  },
+  {
+    "id": "owner-manual-p46-parts-list-intro",
+    "doc": "owner-manual",
+    "page": 46,
+    "section": "Parts List and Diagram > Introduction",
+    "text": "The manufacturer and distributor have provided the parts list and assembly diagram in this manual as a reference tool only. Neither the manufacturer nor distributor makes any representation or warranty of any kind to the buyer that they are qualified to make repairs to the product or replace any parts. The manufacturer expressly states that all repairs and parts replacements should be undertaken by certified and licensed technicians, not by the buyer. The buyer assumes all risk and liability arising out of repairs to the original product or replacement parts. When ordering parts, specify UPC 193175422590. Some parts are listed and shown for illustration purposes only and are not available individually as replacement parts. Parts may not be interchangeable."
+  },
+  {
+    "id": "owner-manual-p48-warranty",
+    "doc": "owner-manual",
+    "page": 48,
+    "section": "Warranty > Limited 90 Day Warranty",
+    "text": "Harbor Freight Tools Co. makes every effort to assure that its products meet high quality and durability standards, and warrants to the original purchaser that this product is free from defects in materials and workmanship for the period of 90 days from the date of purchase. This warranty does not apply to damage due directly or indirectly to misuse, abuse, negligence or accidents, repairs or alterations outside their facilities, criminal activity, improper installation, normal wear and tear, or to lack of maintenance. The manufacturer shall in no event be liable for death, injuries to persons or property, or for incidental, contingent, special or consequential damages arising from the use of the product. To take advantage of this warranty, the product or part must be returned with transportation charges prepaid along with proof of purchase date and an explanation of the complaint. If inspection verifies the defect, the manufacturer will either repair or replace the product or refund the purchase price. Repaired products will be returned at manufacturer's expense, but if there is no defect or if the defect resulted from causes outside the warranty scope, the buyer must bear the cost of returning the product. This warranty gives specific legal rights and you may have other rights which vary from state to state."
+  },
+  {
+    "id": "quick-start-p1-introduction",
+    "doc": "quick-start",
+    "page": 1,
+    "section": "Quick Start Guide > Introduction and Basic Setup",
+    "text": "The quick-start guide provides essential instructions for basic welding operations with the Vulcan OmniPro 220. Basic welding instructions and welding tips are in the full manual. This guide covers wire spool loading, feed mechanism setup, wire tensioning, and essential safety reminders. Keep the gun clear of any grounded objects while the welder is plugged in. To prevent fire and serious injury, keep the torch and wire clear of grounded objects while the welder is plugged in. Wire spool loading shows 1-2 lb spool and 10-12 lb spool with adapter options. The feed mechanism requires proper wire routing through feed guides and correct feed roller selection."
+  },
+  {
+    "id": "quick-start-p2-welding-setup",
+    "doc": "quick-start",
+    "page": 2,
+    "section": "Quick Start Guide > Welding Setup and Operation",
+    "text": "The quick-start guide emphasizes that basic welding instructions and tips are provided in the full owner's manual. Refer to the complete manual for detailed setup procedures, safety information, welding techniques, troubleshooting, and maintenance instructions. The quick-start is designed as a reference for essential setup steps only and should be supplemented with the full manual for comprehensive operation and safety guidance."
+  },
+  {
+    "id": "owner-manual-p13-dcen-flux-cored-polarity",
+    "doc": "owner-manual",
+    "page": 13,
+    "section": "MIG / Flux-Cored Wire Welding > Flux-Cored Gasless Polarity",
+    "text": "DCEN (Direct Current Electrode Negative) polarity is used for flux-cored wire welding without shielding gas. The negative polarity setup ensures that the electrode (welding wire) is negative while the workpiece ground is positive. This configuration is essential for flux-cored wire because the flux coating on the wire itself provides the shielding protection. Using DCEN polarity with flux-cored wire provides better penetration and arc stability for gasless welding operations."
+  },
+  {
+    "id": "owner-manual-p14-dcep-mig-polarity",
+    "doc": "owner-manual",
+    "page": 14,
+    "section": "MIG / Flux-Cored Wire Welding > MIG Gas Shielded Polarity",
+    "text": "DCEP (Direct Current Electrode Positive) polarity is used for solid core MIG welding with shielding gas. The positive polarity setup ensures that the electrode (welding wire) is positive while the workpiece ground is negative. This configuration is required for MIG welding because the shielding gas provides the arc protection and the positive electrode polarity ensures proper wire feeding and arc characteristics for solid core wire. Always verify cable connections match the specific gas type and wire being used."
+  },
+  {
+    "id": "owner-manual-p19-mig-duty-cycle-120v",
+    "doc": "owner-manual",
+    "page": 19,
+    "section": "MIG / Flux-Cored Wire Welding > Duty Cycle 120VAC",
+    "text": "MIG duty cycle at 120 VAC power input shows two operational modes: For 100% continuous use at 75 A: You can weld indefinitely without rest breaks at this amperage level. For 40% use at 100 A: You must limit welding to 4 minutes of continuous operation within any 10-minute period, then rest for 6 minutes. Always monitor the internal thermal protection system which will shut down the welder if overheating occurs. Use shorter welding periods and longer rest periods as a general practice to extend equipment life."
+  },
+  {
+    "id": "owner-manual-p19-mig-duty-cycle-240v",
+    "doc": "owner-manual",
+    "page": 19,
+    "section": "MIG / Flux-Cored Wire Welding > Duty Cycle 240VAC",
+    "text": "MIG duty cycle at 240 VAC power input shows two operational modes: For 100% continuous use at 115 A: You can weld indefinitely without rest breaks at this amperage level, providing increased capacity compared to 120V operation. For 25% use at 200 A: You must limit welding to 2.5 minutes of continuous operation within any 10-minute period, then rest for 7.5 minutes when using maximum amperage. The 240 VAC connection provides higher power capability but requires stricter duty cycle adherence at maximum current settings."
+  },
+  {
+    "id": "owner-manual-p30-tig-gas-flow",
+    "doc": "owner-manual",
+    "page": 30,
+    "section": "TIG / Stick Welding > TIG Gas Flow Settings",
+    "text": "TIG welding gas flow rate is set between 10-25 SCFH (Standard Cubic Feet per Hour) as shown in the settings chart. The specific SCFH value selected depends on the material thickness and welding conditions shown on the inside of the welder door. Proper gas flow is critical for TIG welding to maintain a clean arc and prevent oxidation of the tungsten electrode and weld puddle. Insufficient gas flow can result in porosity, discoloration, and contaminated welds. Excessive gas flow wastes shielding gas and creates turbulent gas patterns that may draw in room air."
+  },
+  {
+    "id": "owner-manual-p20-mig-gas-flow",
+    "doc": "owner-manual",
+    "page": 20,
+    "section": "MIG / Flux-Cored Wire Welding > MIG Gas Flow Settings",
+    "text": "MIG welding gas flow rate is set between 20-30 SCFH (Standard Cubic Feet per Hour) as indicated in the settings chart on the inside of the welder door. For solid core MIG welding with shielding gas, proper gas flow is essential to exclude atmospheric gases from the arc and weld puddle. The specific SCFH value within the 20-30 range depends on nozzle size, gun angle, and travel speed. Check that the MIG gun cable connector is fully inserted into the wire feed mechanism with no O-Rings exposed, as this affects gas delivery to the nozzle."
+  },
+  {
+    "id": "owner-manual-p29-tig-duty-cycle-120v",
+    "doc": "owner-manual",
+    "page": 29,
+    "section": "TIG / Stick Welding > TIG Duty Cycle 120VAC",
+    "text": "TIG duty cycle at 120 VAC shows: For 100% continuous use at 90 A: You can weld indefinitely at this amperage without mandatory rest periods. For 40% use at 125 A: You must limit welding to 4 minutes within any 10-minute period, then rest for 6 minutes when using higher amperage. These ratings assume proper ventilation and normal ambient temperature conditions. Monitor for thermal shutdown warnings which indicate the welder needs cooling time."
+  },
+  {
+    "id": "owner-manual-p29-tig-duty-cycle-240v",
+    "doc": "owner-manual",
+    "page": 29,
+    "section": "TIG / Stick Welding > TIG Duty Cycle 240VAC",
+    "text": "TIG duty cycle at 240 VAC shows: For 100% continuous use at 105 A: You can weld indefinitely at this amperage, providing higher continuous current capability than 120V operation. For 30% use at 175 A: You must limit welding to approximately 3 minutes within any 10-minute period, then rest for 7 minutes when using maximum amperage. The 240 VAC input provides significantly more power for TIG welding but requires careful duty cycle management at higher amperages."
+  },
+  {
+    "id": "owner-manual-p29-stick-duty-cycle-120v",
+    "doc": "owner-manual",
+    "page": 29,
+    "section": "TIG / Stick Welding > Stick Duty Cycle 120VAC",
+    "text": "Stick duty cycle at 120 VAC shows: For 100% continuous use at 90 A: You can weld indefinitely at this amperage without mandatory rest periods. For 40% use at 125 A: You must limit welding to 4 minutes within any 10-minute period, then rest for 6 minutes when using higher amperage. Stick welding creates the most heat of the three processes, so careful attention to thermal limits is important to prevent overheating."
+  },
+  {
+    "id": "owner-manual-p29-stick-duty-cycle-240v",
+    "doc": "owner-manual",
+    "page": 29,
+    "section": "TIG / Stick Welding > Stick Duty Cycle 240VAC",
+    "text": "Stick duty cycle at 240 VAC shows: For 100% continuous use at 105 A: You can weld indefinitely at this amperage. For 30% use at 175 A: You must limit welding to approximately 3 minutes within any 10-minute period, then rest for 7 minutes when using maximum amperage. The 240 VAC connection enables higher amperages for stick welding but requires strict duty cycle adherence to prevent thermal shutdown."
+  },
+  {
+    "id": "owner-manual-p22-ctwd-importance",
+    "doc": "owner-manual",
+    "page": 22,
+    "section": "MIG / Flux-Cored Wire Welding > CTWD Control",
+    "text": "Contact Tip to Work Distance (CTWD) is critical to MIG welding success. The contact tip should remain within 1/2\" (0.5 inches) of the work surface. If CTWD is too long, the wire may not feed properly and the arc becomes unstable. A CTWD that is too short can cause spatter and poor weld appearance. Maintaining consistent 1/2\" CTWD requires keeping a steady hand and practicing to develop muscle memory. For flux-cored wire without gas, maintaining proper CTWD also ensures adequate shielding from the flux coating."
+  },
+  {
+    "id": "owner-manual-p35-example-wire-diagrams",
+    "doc": "owner-manual",
+    "page": 35,
+    "section": "Welding Tips > Example Wire Weld Diagrams",
+    "text": "Example wire weld diagrams show how to recognize and correct common problems. Good weld shows proper bead profile with even coverage. Voltage too low or wire feed too slow creates a narrow, high bead with poor fusion. Voltage too high or wire feed too fast creates a flat, wide bead with possible porosity. Travel speed too fast creates a thin bead with inadequate fusion. Travel speed too slow creates an excessively large bead with possible burn-through on thin material. CTWD too long or wrong polarity causes unstable arc and poor weld appearance. These visual references help you diagnose weld quality issues."
+  },
+  {
+    "id": "owner-manual-p38-example-stick-diagrams",
+    "doc": "owner-manual",
+    "page": 38,
+    "section": "Welding Tips > Example Stick Weld Diagrams",
+    "text": "Example stick weld diagrams show how to recognize and correct common problems. Clean welds first before inspecting because slag covers the weld. Good weld shows proper bead profile visible under slag. Current too low creates a weak, narrow bead with poor penetration. Current too high creates excessive spatter and poor bead appearance. Weld speed too fast creates a narrow, thin bead with inadequate fusion. Weld speed too slow creates an excessively large bead with possible burn-through. Arc length too short causes difficult arc maintenance. Arc length too long causes unstable arc and poor weld quality. These visual references help you diagnose stick weld quality issues."
+  },
+  {
+    "id": "owner-manual-p15-stainless-wire-considerations",
+    "doc": "owner-manual",
+    "page": 15,
+    "section": "MIG / Flux-Cored Wire Welding > Stainless Steel Wire Setup",
+    "text": "Stainless steel wire is less flexible than mild steel or aluminum welding wire. This reduced flexibility makes it more difficult to feed through the gun cable liner. It is especially important to keep the MIG gun cable straight while feeding stainless steel wire to prevent the wire from buckling or jamming in the liner. Use the cold wire feed function to carefully feed the wire with the gun cable laid out in a straight line. If the wire stops during stainless steel wire feeding, check for kinks in the cable and verify that the feed tensioner is properly set for the wire diameter used."
+  },
+  {
+    "id": "owner-manual-p31-tig-electrode-spacing",
+    "doc": "owner-manual",
+    "page": 31,
+    "section": "TIG / Stick Welding > TIG Electrode Spacing",
+    "text": "In TIG welding, maintaining a constant distance between the tungsten electrode and the workpiece is critical to arc stability and weld quality. The recommended spacing is between 1 and 1.5 times the diameter of the tungsten electrode. For example, with a 1/16\" electrode, maintain a gap of 1/16\" to 3/32\" from the workpiece. This gap maintains proper arc length and gas shield coverage while preventing tungsten contamination of the weld puddle. Too close spacing risks electrode contact with the puddle; too large a gap can cause erratic arc behavior."
+  },
+  {
+    "id": "owner-manual-p31-tig-rod-feeding",
+    "doc": "owner-manual",
+    "page": 31,
+    "section": "TIG / Stick Welding > TIG Rod Feeding Technique",
+    "text": "When adding TIG rod material to the weld puddle, follow proper technique to prevent oxidation and contamination. Always remove the TIG rod each time the electrode is advanced into the puddle material, but keep the rod inside the gas shield at all times. This practice prevents the tungsten electrode and rod from oxidizing in the air between passes. Add rod material to the front edge of the weld puddle where it melts readily. Alternate between advancing the torch (moving the puddle forward) and adding rod material to develop smooth, consistent bead profile."
+  },
+  {
+    "id": "owner-manual-p33-stick-arc-angle",
+    "doc": "owner-manual",
+    "page": 33,
+    "section": "TIG / Stick Welding > Stick Electrode Angle",
+    "text": "Proper stick electrode angle is essential to good weld penetration and bead appearance. After striking the arc, tilt the electrode back 10 to 20 degrees from vertical to maintain proper arc length and puddle control. This slight backward tilt is called the drag angle because you drag the electrode back to deposit material. The electrode should maintain this angle as you move along the joint. Changing the angle during welding creates inconsistent arc length and can result in poor weld quality."
+  },
+  {
+    "id": "owner-manual-p33-stick-arc-striking",
+    "doc": "owner-manual",
+    "page": 33,
+    "section": "TIG / Stick Welding > Stick Arc Striking Techniques",
+    "text": "There are three primary techniques for striking an arc with stick electrodes: Tap the surface with the electrode point briefly, then lift slightly to establish the arc. Stroke the surface with the electrode like striking a match. Strike the surface firmly like starting a match. The stroke technique is often preferred because it provides the smoothest arc initiation. Practice all three methods to develop the technique that works best for you. Each electrode type may respond slightly differently, so test on scrap material before starting your project."
+  },
+  {
+    "id": "owner-manual-p34-strike-test-interpretation",
+    "doc": "owner-manual",
+    "page": 34,
+    "section": "Welding Tips > Strike Test Interpretation",
+    "text": "The strike test is a mechanical test to evaluate weld quality by testing weld ductility rather than strength. A good weld will deform when struck with a hammer but will not crack or break. This indicates that the weld metal and base metal have proper fusion and the material retained its ductility. A poor weld will be brittle and snap or crack at the weld, indicating inadequate penetration, porosity, or other defects. This test damages the weld it is performed on, so only use it on practice welds or test coupons, never on structural parts."
+  },
+  {
+    "id": "owner-manual-p36-wire-weld-examples",
+    "doc": "owner-manual",
+    "page": 36,
+    "section": "Welding Tips > Wire Weld Defect Examples",
+    "text": "Common wire weld defects visible in cross-section include: Voltage too low or wire feed too slow creates a narrow, high profile with possible porosity. Voltage too high or wire feed too fast creates a flat, wide profile that spreads excessively. Travel speed too fast creates a thin bead that doesn't fill the joint properly. Travel speed too slow creates an overly large bead that wastes material and can cause burn-through on thin material. CTWD too long creates a wavy, unstable bead. Wrong polarity (DCEN for MIG, DCEP for flux-cored) prevents proper arc characteristics."
+  },
+  {
+    "id": "owner-manual-p14-regulator-setup",
+    "doc": "owner-manual",
+    "page": 14,
+    "section": "MIG / Flux-Cored Wire Welding > Gas Regulator Setup",
+    "text": "The gas regulator included with the Vulcan OmniPro 220 controls the pressure and flow rate of shielding gas to the MIG gun. Before connecting to the cylinder, close the regulator valve until it is loose (turn counterclockwise). After the regulator is threaded onto the cylinder, open the main cylinder valve all the way to ensure full pressure reaches the regulator. Then adjust the flow gauge to the SCFH value indicated on the settings chart for your specific welding process and material. Always stand to the side when opening the cylinder valve briefly to blow dust from the valve before using."
+  },
+  {
+    "id": "owner-manual-p25-argon-gas-requirement",
+    "doc": "owner-manual",
+    "page": 25,
+    "section": "TIG / Stick Welding > TIG Shielding Gas Type",
+    "text": "TIG welding requires 100% argon shielding gas for most applications. Argon is an inert gas that provides excellent arc stability and weld quality for mild steel, stainless steel, and other materials. The gas cylinder (not included with the welder) must be secured in place with two straps to prevent tipping during use. Argon is heavier than air and flows easily through the gas delivery system. The purity of argon is important - use welding-grade argon, not industrial-grade, to ensure clean welds without contamination."
+  },
+  {
+    "id": "owner-manual-p7-wire-sizes-mig",
+    "doc": "owner-manual",
+    "page": 7,
+    "section": "Specifications > Wire Sizes Available",
+    "text": "The Vulcan OmniPro 220 can use solid core MIG wire in diameters: 0.025\", 0.030\", and 0.035\". Flux-cored wire is available in: 0.030\", 0.035\", and 0.045\". Each wire diameter has a specific feed roller groove that must be selected before welding. Smaller diameter wire (0.025\"-0.030\") is suitable for thinner materials and precise work. Larger diameter wire (0.035\"-0.045\") provides faster deposition rates for thicker materials and production welding. Wire diameter also affects wire speed settings and penetration characteristics."
+  },
+  {
+    "id": "owner-manual-p7-wire-speed-range",
+    "doc": "owner-manual",
+    "page": 7,
+    "section": "Specifications > Wire Speed and Spool Capacity",
+    "text": "Wire speed range for the Vulcan OmniPro 220 is 50-500 IPM (inches per minute). This wide range accommodates different wire diameters and materials. Smaller diameter wire typically runs faster (higher IPM) than larger diameter wire. The wire spool capacity is up to 12 lb, accommodating standard MIG wire spools. The wire feeder uses an idler arm and feed tensioner to precisely control wire feed pressure, which is critical for smooth arc operation."
+  },
+  {
+    "id": "owner-manual-p12-feed-roller-selection",
+    "doc": "owner-manual",
+    "page": 12,
+    "section": "MIG / Flux-Cored Wire Welding > Feed Roller Selection",
+    "text": "Selecting the correct feed roller is critical to consistent wire feeding. The feed roller has two sides: Solid core side features V-groove channels. Flux-cored side features knurled groove channels. For solid core wire, use the V-groove side with the groove size matching the wire diameter (0.025\", 0.030\"/0.035\" grooves). For flux-cored wire, use the knurled groove side with the groove size matching the wire diameter (0.030\"/0.035\" or 0.045\" grooves). Always check that the number showing on the roller matches the wire diameter on the spool label before starting to weld."
+  },
+  {
+    "id": "owner-manual-p18-practice-before-project",
+    "doc": "owner-manual",
+    "page": 18,
+    "section": "MIG / Flux-Cored Wire Welding > Practice Requirements",
+    "text": "Good welding requires skill and experience that can only be developed through practice. Always practice several sample welds on scrap material before welding on your actual project. Use scrap material of the same thickness as your intended workpiece to practice technique. Make multiple passes to develop consistent technique before starting valuable work. Additional practice is recommended whenever you work with different material thickness, different material type, different connection type (butt vs fillet), or different welding process."
+  },
+  {
+    "id": "owner-manual-p19-ground-clamp-placement",
+    "doc": "owner-manual",
+    "page": 19,
+    "section": "MIG / Flux-Cored Wire Welding > Ground Clamp Connection",
+    "text": "The ground clamp must be connected to bare metal on the workpiece near the weld area or to the metal work bench where the workpiece is clamped. Never attempt to weld through the ground clamp - this prevents proper current flow and creates poor weld quality. Clean the ground clamp connection point down to bare metal by scraping away any paint, rust, or oxidation. A clean metal-to-metal contact is essential for proper current flow throughout the welding circuit. The ground clamp cable should be as short as possible to minimize electrical resistance."
+  },
+  {
+    "id": "owner-manual-p19-workpiece-preparation",
+    "doc": "owner-manual",
+    "page": 19,
+    "section": "MIG / Flux-Cored Wire Welding > Workpiece Surface Preparation",
+    "text": "Before welding, clean the weld surfaces thoroughly to bare metal using a wire brush or angle grinder. There must be no rust, paint, oil, or other materials on the weld surfaces - only clean bare metal. Poor surface preparation is one of the most common causes of weak welds and porosity. The distance (if any) between the two workpieces must be controlled properly to allow the weld to hold both sides securely while allowing the weld to penetrate fully into the joint. The edges of thicker workpieces (over 1/4\") may need to be chamfered or beveled to allow proper weld penetration through multiple passes."
+  },
+  {
+    "id": "owner-manual-p22-stringer-vs-weave",
+    "doc": "owner-manual",
+    "page": 22,
+    "section": "MIG / Flux-Cored Wire Welding > Stringer vs Weave Beads",
+    "text": "Two basic bead patterns are used in MIG welding: Stringer bead (straight) is used for narrow welds where you draw the wire in a steady straight line along the joint. This creates a narrow, high bead profile with good penetration. Weave bead is used for wider welds where you draw the wire back and forth across the joint in a weaving motion. This creates a wider, flatter bead profile to fill wider gaps. Weave beads take practice to perform properly - the key is maintaining consistent traverse speed and gun angle while moving side to side. For most work, stringer beads are easier and provide better penetration."
+  },
+  {
+    "id": "owner-manual-p22-joint-types",
+    "doc": "owner-manual",
+    "page": 22,
+    "section": "MIG / Flux-Cored Wire Welding > Joint Types and Gun Angles",
+    "text": "Two common joint types require different gun angles: Butt (end-to-end) welds require 90-degree gun angle, pointing straight up and down into the joint. This ensures proper fusion and penetration when joining two pieces edge-to-edge. Fillet (T-shaped) welds require 45-degree gun angle, pointing at the corner where two surfaces meet. This angle allows the weld to properly fill the corner and create a triangular fillet profile. Proper gun angle is critical to weld quality, penetration, and appearance."
+  },
+  {
+    "id": "owner-manual-p22-push-vs-drag-angle",
+    "doc": "owner-manual",
+    "page": 22,
+    "section": "MIG / Flux-Cored Wire Welding > Push Angle vs Drag Angle",
+    "text": "Gun angle terminology varies depending on the process and gas type: Push angle (0-15 degrees) is used with solid core wire and shielding gas. The gun is tilted away from the direction of travel, which pushes the molten metal into the joint. This provides better gas shield coverage and cleaner welds. Drag angle (0-15 degrees) is used with flux-cored wire without shielding gas. The gun is tilted toward the direction of travel, which drags the flux shield behind the arc. This maintains the flux protection as the electrode moves along the joint. Using the wrong angle with the wrong wire type produces poor weld quality."
+  },
+  {
+    "id": "owner-manual-p23-duty-cycle-monitoring",
+    "doc": "owner-manual",
+    "page": 23,
+    "section": "MIG / Flux-Cored Wire Welding > Thermal Shutdown Warning",
+    "text": "When the welder overheats due to excessive duty cycle, a warning screen appears in the LCD display window and the unit automatically shuts down to protect internal components. Do not attempt to restart the welder immediately. Set the MIG gun down on a heat-proof, electrically non-conductive surface like a concrete slab, well clear of the ground clamp. Allow the welder to cool with the power switch ON so that the internal cooling fan operates. The welder will automatically return to service after cooling. To prevent thermal shutdown, use shorter welding periods and longer rest periods than the minimum duty cycle specifications."
+  },
+  {
+    "id": "owner-manual-p30-tig-torch-position",
+    "doc": "owner-manual",
+    "page": 30,
+    "section": "TIG / Stick Welding > TIG Torch Setup and Safety",
+    "text": "The TIG torch must be set down on a nonconductive, nonflammable surface away from any grounded objects whenever the operator is not holding it. The torch carries open circuit voltage when the welder is powered on, so proper placement prevents accidental contact and electrical hazards. Place the torch on a concrete slab or other non-conductive surface. Never leave the torch resting on conductive materials like metal or wet surfaces. Some torches include a valve on the gas line that must be opened manually before striking the arc."
+  },
+  {
+    "id": "owner-manual-p31-foot-pedal-alternatives",
+    "doc": "owner-manual",
+    "page": 31,
+    "section": "TIG / Stick Welding > TIG Foot Pedal Operation",
+    "text": "TIG welding can be controlled with or without a foot pedal (sold separately). With foot pedal: Push the foot pedal to start the arc, vary foot pressure to increase/decrease amperage during welding, release the foot pedal to stop welding. Without foot pedal: Touch the electrode to the workpiece and lift to strike the arc. To adjust amperage without a pedal, you must adjust the amperage setting before starting the arc, then turn the right knob OFF to stop welding. The foot pedal provides superior control for beginners and professionals because it allows real-time amperage adjustment during welding."
+  },
+  {
+    "id": "owner-manual-p31-tig-puddle-control",
+    "doc": "owner-manual",
+    "page": 31,
+    "section": "TIG / Stick Welding > TIG Puddle Control and Technique",
+    "text": "When the welding puddle is hot enough, tilt the torch backward about 10-15 degrees from vertical and move it back slightly. This backward tilt allows you to see the puddle and control its size. Add TIG rod material as needed to the front end of the weld puddle where it melts readily. Alternate between pushing the torch forward (advancing the puddle along the joint) and adding rod material. This alternating motion creates an overlapping pattern that produces consistent weld strength and appearance. The rod should remain inside the gas shield at all times to prevent oxidation."
+  },
+  {
+    "id": "owner-manual-p32-stick-electrode-holder",
+    "doc": "owner-manual",
+    "page": 32,
+    "section": "TIG / Stick Welding > Stick Electrode Holder Setup",
+    "text": "The stick electrode holder must be connected to the positive (+) socket for stick welding when following the standard DCEP polarity setup. The ground clamp must be connected to the negative (-) socket. The electrode holder should be set down on a nonconductive, nonflammable surface away from any grounded objects whenever the operator is not holding it. The holder carries open circuit voltage when the welder is powered on. Hold the electrode holder in a comfortable grip that allows for precise electrode angle control during welding."
+  },
+  {
+    "id": "owner-manual-p32-stick-electrode-types",
+    "doc": "owner-manual",
+    "page": 32,
+    "section": "TIG / Stick Welding > Stick Electrode Types",
+    "text": "Stick welding uses different electrode types for different materials and applications. The LCD display allows you to select the electrode type before welding. Different electrode types have different characteristics including: Arc characteristics (easy-start, smooth, or explosive), Penetration depth (shallow, medium, or deep), Deposition rate (fast or slow), Slag type (heavy or light), and Base metal compatibility (mild steel, stainless, etc.). Always use electrodes appropriate for the material you are welding. Match the electrode diameter to the material thickness - thicker material requires larger diameter electrodes."
+  },
+  {
+    "id": "owner-manual-p35-inadequate-penetration-causes",
+    "doc": "owner-manual",
+    "page": 35,
+    "section": "Welding Tips > Inadequate Penetration - Root Causes",
+    "text": "Inadequate wire weld penetration occurs when the weld does not penetrate the joint fully but only sits on the surface. Root causes include: Insufficient weld heat (reduce travel speed, increase current), Incorrect welding technique (maintain 1/2\" or less CTWD, keep arc on leading edge), Workpieces too thick or gap too small (bevel thick pieces, allow slight gap between pieces), Insufficient weld material deposited (increase wire feed speed). All of these causes can be corrected by adjusting settings and technique before the next weld attempt."
+  },
+  {
+    "id": "owner-manual-p36-excessive-spatter-control",
+    "doc": "owner-manual",
+    "page": 36,
+    "section": "Welding Tips > Excessive Spatter Reduction",
+    "text": "Fine spatter is normal in MIG welding and cannot be completely eliminated, but excessive spatter that is grainy and large indicates a problem. Causes of excessive spatter include: Dirty workpiece or wire (clean to bare metal), Incorrect polarity (DCEP for MIG, DCEN for flux-cored), Insufficient shielding gas flow (increase SCFH, clean nozzle, maintain proper CTWD), Wire feeding too fast (reduce wire speed), CTWD too long (maintain 1/2\" or less). Reducing spatter improves weld appearance and reduces cleanup time."
+  },
+  {
+    "id": "owner-manual-p37-porosity-prevention",
+    "doc": "owner-manual",
+    "page": 37,
+    "section": "Welding Tips > Porosity Causes and Prevention",
+    "text": "Porosity (small cavities or holes in the weld bead) indicates contamination or insufficient shielding. Prevention includes: Correct polarity (DCEP for MIG, DCEN for flux-cored), Sufficient shielding gas flow (20-30 SCFH for MIG, 10-25 SCFH for TIG), Clean nozzle free of spatter, Proper CTWD (less than 1/2\"), Clean workpiece and wire (no oil, dust, or oxidation), Steady travel speed (avoid speed variations). Porosity weakens the weld and should be avoided through proper setup and technique."
+  },
+  {
+    "id": "owner-manual-p40-stick-weld-appearance",
+    "doc": "owner-manual",
+    "page": 40,
+    "section": "Welding Tips > Stick Weld Appearance Assessment",
+    "text": "Stick welds will have a coat of slag over them until cleaned. Always clean the slag off before assessing weld quality. Use a chipping hammer to knock off the slag coating carefully without damaging the underlying weld. Then use a wire brush for further cleaning. Only after slag is removed can you properly see the weld bead profile and assess whether penetration is adequate, appearance is good, and no defects are visible. Clean welds reveal weld quality for proper inspection."
+  },
+  {
+    "id": "owner-manual-p18-unattended-welder-safety",
+    "doc": "owner-manual",
+    "page": 18,
+    "section": "MIG / Flux-Cored Wire Welding > Safe Welder Operation",
+    "text": "Keep the MIG gun tip clear of grounded objects whenever the welder is plugged in and turned on. Never leave the welder unattended while energized. If you must leave the work area, turn the power switch OFF and unplug the welder from the outlet. Do not touch the gun trigger while feeding wire through during setup. Parts of the welder including the MIG gun tip may be at welding voltage, presenting an electric shock hazard. Always treat the welder with respect and follow all electrical safety precautions."
+  },
+  {
+    "id": "owner-manual-p41-periodic-maintenance",
+    "doc": "owner-manual",
+    "page": 41,
+    "section": "Maintenance > Periodic Professional Maintenance",
+    "text": "Periodically have a qualified technician remove the rear panel and use compressed air to blow out all dust from the welder interior. This dust removal is important because dust accumulation can impair cooling efficiency and lead to thermal shutdown. The frequency of professional maintenance depends on welding frequency and environment - daily use in dusty conditions may require monthly maintenance, while occasional hobby use might need annual maintenance. Maintain labels and nameplates on the welder as they carry important information about specifications and safety."
+  },
+  {
+    "id": "owner-manual-p41-storage-requirements",
+    "doc": "owner-manual",
+    "page": 41,
+    "section": "Maintenance > Storage and Off-Season Care",
+    "text": "After every use, store the welder in a clean and dry location. Do not store outdoors or in damp environments as moisture can cause rust and electrical failures. Allow the welder to cool completely before storing. Store accessories like wire spools, gas cylinders, and cables in a clean, dry place as well. For long-term storage (more than a month), consider removing the wire spool and replacing it when you restart welding. Periodically check stored welders for signs of rust or damage before returning them to service."
+  },
+  {
+    "id": "owner-manual-p21-inductance-setting",
+    "doc": "owner-manual",
+    "page": 21,
+    "section": "MIG / Flux-Cored Wire Welding > Inductance Adjustment",
+    "text": "Inductance adjustment is an optional setting that controls the arc length and puddle fluidity. Increase inductance for: More fluid puddle behavior, Flatter bead profile, Better appearance. Decrease inductance for: Colder puddle for thinner material, Tighter arc control. Inductance doesn't change the overall weld energy but affects how the energy is delivered to the arc. Experimentation with inductance can help optimize weld appearance and handling for specific applications."
+  },
+  {
+    "id": "owner-manual-p21-run-in-wfs",
+    "doc": "owner-manual",
+    "page": 21,
+    "section": "MIG / Flux-Cored Wire Welding > Run-In WFS Setting",
+    "text": "Run-In Wire Feed Speed (WFS) is an optional setting that controls wire speed before it contacts the workpiece. This setting is represented as a percentage of the pre-set wire feed speed. For example, 50% run-in speed means the wire feeds at half the normal speed before arc ignition, then speeds up to the set value when the trigger is pulled. Run-In WFS helps smooth arc initiation and reduces spatter at the start of the weld. Higher run-in percentages create smoother starts but slower arc pickup."
+  },
+  {
+    "id": "owner-manual-p21-spot-timer",
+    "doc": "owner-manual",
+    "page": 21,
+    "section": "MIG / Flux-Cored Wire Welding > Spot Timer Setting",
+    "text": "Spot Timer is an optional setting for spot welding - joining two pieces at a single point without continuous beads. When spot timer is activated and you press the trigger, the welder automatically stops after a set time period. This allows consistent spot weld size without manually releasing the trigger. Spot welding is commonly used in automotive repair and sheet metal fabrication. Set the timer value based on the material thickness and desired weld nugget size."
+  },
+  {
+    "id": "owner-manual-p33-hot-start-setting",
+    "doc": "owner-manual",
+    "page": 33,
+    "section": "TIG / Stick Welding > Hot Start Setting",
+    "text": "Hot Start is an optional setting in stick welding that adjusts the amperage at the moment of arc initiation. Higher hot start values create a more forceful arc start that helps ignite the arc and establish a stable arc quickly. Lower hot start values create a gentler arc start useful for thin materials or electrodes that are sensitive to high initial current. Most operators benefit from moderate hot start settings that provide reliable arc initiation without excessive spatter."
+  },
+  {
+    "id": "owner-manual-p33-arc-force-setting",
+    "doc": "owner-manual",
+    "page": 33,
+    "section": "TIG / Stick Welding > Arc Force Setting",
+    "text": "Arc Force is an optional setting in stick welding that adjusts weld penetration and smoothness. Increasing arc force provides: Deeper penetration, More forceful arc action, Better tie-in at edges. Decreasing arc force provides: Smoother, quieter arc, Less spatter, Better control for thin materials. Arc force doesn't change the base amperage but adds extra current boost when the electrode touches the puddle. Proper arc force setting is important for operator comfort and weld quality."
+  },
+  {
+    "id": "owner-manual-p31-save-recall-settings",
+    "doc": "owner-manual",
+    "page": 31,
+    "section": "TIG / Stick Welding > Save and Recall Settings",
+    "text": "Both TIG and Stick processes allow you to save up to 5 different configurations to memory. To save settings: Access Optional Settings menu, select Save Setting, turn main control knob to scroll between the 5 available slots, press main control knob to access the OVERWRITE MEMORY SETTING screen, turn main control knob to choose YES, press main control knob to save the current settings. To recall saved settings: Select Recall Setting from the Optional Settings menu. This feature is useful when working with multiple material thicknesses or electrode types in a single work session."
+  },
+  {
+    "id": "owner-manual-p20-save-recall-settings-mig",
+    "doc": "owner-manual",
+    "page": 20,
+    "section": "MIG / Flux-Cored Wire Welding > Save and Recall Settings",
+    "text": "MIG welding also allows you to save up to 5 different configurations to memory for different wire diameters, thicknesses, or projects. Access the Optional Settings menu after adjusting your initial wire diameter and material thickness settings. Save settings that work well for your common applications to quickly recall them later. This feature reduces setup time and improves consistency when switching between different projects or materials throughout the day."
+  }
+]

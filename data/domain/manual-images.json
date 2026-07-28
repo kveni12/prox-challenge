@@ -1,0 +1,47 @@
+{
+  "$schema": "manual-images-v1",
+  "images": [
+    {
+      "id": "process-selection-chart",
+      "path": "/manual/selection-chart.png",
+      "caption": "How to Choose a Welder — process selection chart (skill level, gas requirement, material, thickness range, applications by process)",
+      "source": { "doc": "selection-chart", "page": 1 },
+      "topics": ["process selection", "which process should I use", "MIG vs flux-cored", "duty cycle example"]
+    },
+    {
+      "id": "front-panel-controls",
+      "path": "/manual/front-panel-controls.png",
+      "caption": "Front panel controls: LCD display, Left/Right/Control knobs, Home/Back buttons, positive/negative sockets, spool gun gas outlet, wire feed door",
+      "source": { "doc": "owner-manual", "page": 8 },
+      "topics": ["controls", "front panel", "knobs", "LCD", "sockets"]
+    },
+    {
+      "id": "rating-nameplate",
+      "path": "/manual/rating-nameplate.png",
+      "caption": "Rating nameplate showing DCEP solid-core (MIG) polarity setup diagram and the full duty-cycle rating table for all processes and voltages",
+      "source": { "doc": "owner-manual", "page": 14 },
+      "topics": ["duty cycle", "polarity", "MIG polarity", "nameplate", "specifications"]
+    },
+    {
+      "id": "wiring-schematic",
+      "path": "/manual/wiring-schematic.png",
+      "caption": "Internal wiring schematic",
+      "source": { "doc": "owner-manual", "page": 45 },
+      "topics": ["wiring", "schematic", "internal wiring", "electrical diagram"]
+    },
+    {
+      "id": "parts-diagram-1",
+      "path": "/manual/parts-diagram-1.png",
+      "caption": "Parts list and exploded diagram (page 1 of 2)",
+      "source": { "doc": "owner-manual", "page": 46 },
+      "topics": ["parts", "replacement parts", "exploded diagram"]
+    },
+    {
+      "id": "parts-diagram-2",
+      "path": "/manual/parts-diagram-2.png",
+      "caption": "Parts list and exploded diagram (page 2 of 2)",
+      "source": { "doc": "owner-manual", "page": 47 },
+      "topics": ["parts", "replacement parts", "exploded diagram"]
+    }
+  ]
+}

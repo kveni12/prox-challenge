@@ -1,0 +1,63 @@
+{
+  "$schema": "polarity-matrix-v1",
+  "machine": "Vulcan OmniPro 220 (Item 57812)",
+  "safetyNote": "Always turn the Power Switch OFF and unplug the welder before changing cable connections. Twist each cable connector clockwise all the way to lock it in place. Wrong polarity does not damage the machine but produces poor/unsafe welds (e.g. excessive spatter, porosity) and is a documented cause in the manual's troubleshooting tables.",
+  "sockets": {
+    "description": "The front panel has two threaded sockets: one marked Positive (+) and one marked Negative (−). Which cable goes in which socket depends on the process, and this is the single most-confused setup step because MIG and Flux-Cored use the SAME sockets in OPPOSITE configurations.",
+    "source": { "doc": "owner-manual", "page": 8 }
+  },
+  "processes": {
+    "MIG": {
+      "displayName": "MIG (Solid Core, gas-shielded)",
+      "polarityCode": "DCEP",
+      "polarityName": "Direct Current Electrode Positive (reverse polarity)",
+      "groundClampSocket": "negative",
+      "torchOrWireCableSocket": "positive",
+      "torchOrWireCableName": "Wire Feed Power Cable (MIG Gun)",
+      "instructions": "Plug the Ground Clamp Cable into the Negative (−) socket. Plug the Wire Feed Power Cable into the Positive (+) socket. Twist both clockwise to lock.",
+      "source": { "doc": "owner-manual", "page": 14, "step": "17" }
+    },
+    "FluxCored": {
+      "displayName": "Flux-Cored (gasless)",
+      "polarityCode": "DCEN",
+      "polarityName": "Direct Current Electrode Negative (straight polarity)",
+      "groundClampSocket": "positive",
+      "torchOrWireCableSocket": "negative",
+      "torchOrWireCableName": "Wire Feed Power Cable (MIG Gun)",
+      "instructions": "Plug the Ground Clamp Cable into the Positive (+) socket. Plug the Wire Feed Power Cable into the Negative (−) socket. Twist both clockwise to lock.",
+      "warning": "This is the OPPOSITE of MIG solid-core wiring even though it uses the same gun and sockets. Re-check polarity every time you switch between MIG and Flux-Cored.",
+      "source": { "doc": "owner-manual", "page": 13, "step": "16" }
+    },
+    "SpoolGun": {
+      "displayName": "Optional Spool Gun (aluminum, gas-shielded)",
+      "polarityCode": "DCEP",
+      "polarityName": "Direct Current Electrode Positive (reverse polarity)",
+      "groundClampSocket": "negative",
+      "torchOrWireCableSocket": "positive",
+      "torchOrWireCableName": "Wire Feed Power Cable (Spool Gun)",
+      "instructions": "Same as MIG: plug the Ground Clamp Cable into the Negative (−) socket and the Wire Feed Power Cable into the Positive (+) socket.",
+      "source": { "doc": "owner-manual", "page": 17 }
+    },
+    "TIG": {
+      "displayName": "TIG (gas-shielded)",
+      "polarityCode": "DCEN",
+      "polarityName": "Direct Current Electrode Negative (straight polarity)",
+      "groundClampSocket": "positive",
+      "torchOrWireCableSocket": "negative",
+      "torchOrWireCableName": "TIG Torch Cable",
+      "instructions": "Plug the Ground Clamp Cable into the Positive socket. Plug the TIG Torch Cable into the Negative socket. Twist both clockwise to lock. The Foot Pedal Cable (if used) connects separately inside the machine.",
+      "source": { "doc": "owner-manual", "page": 24 }
+    },
+    "Stick": {
+      "displayName": "Stick / SMAW",
+      "polarityCode": "DCEP",
+      "polarityName": "Direct Current Electrode Positive (reverse polarity) — as wired by default in this manual's setup instructions",
+      "groundClampSocket": "negative",
+      "torchOrWireCableSocket": "positive",
+      "torchOrWireCableName": "Electrode Holder Cable",
+      "instructions": "Plug the Ground Clamp Cable into the Negative socket. Plug the Electrode Holder Cable into the Positive socket. Twist both clockwise to lock.",
+      "caveat": "Some stick electrodes (check the electrode's own packaging/spec) are designed for DCEN or AC rather than DCEP. The manual documents this DCEP wiring as the standard setup; if a specific electrode's data sheet calls for different polarity, follow the electrode manufacturer's guidance.",
+      "source": { "doc": "owner-manual", "page": 27 }
+    }
+  }
+}

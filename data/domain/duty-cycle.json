@@ -1,0 +1,68 @@
+{
+  "$schema": "duty-cycle-matrix-v1",
+  "machine": "Vulcan OmniPro 220 (Item 57812)",
+  "source": {
+    "primary": { "doc": "owner-manual", "page": 14, "label": "Rating nameplate (reproduced in manual)" },
+    "corroborating": [
+      { "doc": "owner-manual", "page": 7, "label": "Specifications table" },
+      { "doc": "owner-manual", "page": 19, "label": "MIG Duty Cycle section" },
+      { "doc": "owner-manual", "page": 29, "label": "Stick/TIG Duty Cycle section" },
+      { "doc": "selection-chart", "page": 1, "label": "Duty cycle explainer box" }
+    ]
+  },
+  "definition": "The number of minutes, within any 10-minute period, a process can run at a given current without the machine overheating and shutting down. Formula: minutes_welding = dutyCyclePercent / 100 * 10; minutes_resting = 10 - minutes_welding.",
+  "note": "Each process has three rated points per input voltage (25/30/40% depending on process, 60%, 100%). All values below are cross-verified between the nameplate table (page 14) and the per-process narrative sections (pages 19, 29); the two sources agree on every point.",
+  "processes": {
+    "MIG": {
+      "120V": [
+        { "dutyCyclePercent": 40, "amps": 100, "volts": 19.0, "minutesWelding": 4, "minutesResting": 6 },
+        { "dutyCyclePercent": 60, "amps": 85, "volts": 18.25 },
+        { "dutyCyclePercent": 100, "amps": 75, "volts": 17.75, "minutesWelding": 10, "minutesResting": 0 }
+      ],
+      "240V": [
+        { "dutyCyclePercent": 25, "amps": 200, "volts": 24.0, "minutesWelding": 2.5, "minutesResting": 7.5 },
+        { "dutyCyclePercent": 60, "amps": 130, "volts": 20.5 },
+        { "dutyCyclePercent": 100, "amps": 115, "volts": 19.75, "minutesWelding": 10, "minutesResting": 0 }
+      ],
+      "weldingCurrentRange": { "120V": [30, 140], "240V": [30, 220], "unit": "A" },
+      "maxOCV_VDC": 86
+    },
+    "Stick": {
+      "120V": [
+        { "dutyCyclePercent": 40, "amps": 80, "volts": 23.2, "minutesWelding": 4, "minutesResting": 6 },
+        { "dutyCyclePercent": 60, "amps": 70, "volts": 22.8 },
+        { "dutyCyclePercent": 100, "amps": 60, "volts": 22.4, "minutesWelding": 10, "minutesResting": 0 }
+      ],
+      "240V": [
+        { "dutyCyclePercent": 25, "amps": 175, "volts": 27.0, "minutesWelding": 2.5, "minutesResting": 7.5 },
+        { "dutyCyclePercent": 60, "amps": 115, "volts": 24.6 },
+        { "dutyCyclePercent": 100, "amps": 100, "volts": 24.0, "minutesWelding": 10, "minutesResting": 0 }
+      ],
+      "weldingCurrentRange": { "120V": [10, 80], "240V": [10, 175], "unit": "A" },
+      "maxOCV_VDC": 86
+    },
+    "TIG": {
+      "120V": [
+        { "dutyCyclePercent": 40, "amps": 125, "volts": 15.0, "minutesWelding": 4, "minutesResting": 6 },
+        { "dutyCyclePercent": 60, "amps": 105, "volts": 14.2 },
+        { "dutyCyclePercent": 100, "amps": 90, "volts": 13.6, "minutesWelding": 10, "minutesResting": 0 }
+      ],
+      "240V": [
+        { "dutyCyclePercent": 30, "amps": 175, "volts": 17.0, "minutesWelding": 3, "minutesResting": 7 },
+        { "dutyCyclePercent": 60, "amps": 125, "volts": 15.0 },
+        { "dutyCyclePercent": 100, "amps": 105, "volts": 14.2, "minutesWelding": 10, "minutesResting": 0 }
+      ],
+      "weldingCurrentRange": { "120V": [10, 125], "240V": [10, 175], "unit": "A" },
+      "maxOCV_VDC": 86
+    },
+    "FluxCored": {
+      "note": "The manual's published duty-cycle nameplate table and Specifications table (page 7) give MIG/Stick/TIG figures only; Flux-Cored is not separately rated in the source material and shares the machine's MIG-mode power path. Do not present a Flux-Cored-specific duty cycle number as documented fact — say the manual does not publish one separately and point to the MIG figures as the closest documented reference.",
+      "weldingCurrentRange": { "120V": [30, 140], "240V": [30, 220], "unit": "A" }
+    }
+  },
+  "wireSpeedRange": { "min": 50, "max": 500, "unit": "IPM", "source": { "doc": "owner-manual", "page": 7 } },
+  "thermalProtection": {
+    "behavior": "The welder has an internal thermal protection system. On overheat it shuts down automatically and shows a warning screen on the LCD. It resumes automatically after cooling (leave the Power Switch ON so the internal fan can cool it). After a shutdown, rest the gun/torch/electrode holder on a non-conductive, heat-proof surface away from the ground clamp, then use shorter welding periods and longer rests.",
+    "source": { "doc": "owner-manual", "page": 19 }
+  }
+}
