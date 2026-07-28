@@ -15,6 +15,8 @@ export interface RunAgentTurnParams {
   prompt: string;
   resumeSessionId?: string;
   model?: string;
+  /** Aborted when the client disconnects, so an abandoned turn doesn't keep calling tools and spending API budget for a response nobody will see. */
+  signal?: AbortSignal;
 }
 
 const DEFAULT_MODEL = process.env.CLAUDE_MODEL || "claude-opus-5";
@@ -50,9 +52,20 @@ export async function* runAgentTurn(params: RunAgentTurnParams): AsyncGenerator<
     }
   }
 
+  // Bridge the caller's AbortSignal (the HTTP request) onto the AbortController
+  // the SDK expects, so a client disconnect actually stops the CLI subprocess
+  // instead of letting an abandoned turn keep calling tools and spending API
+  // budget for a response nobody will see.
+  const abortController = new AbortController();
+  if (params.signal) {
+    if (params.signal.aborted) abortController.abort();
+    else params.signal.addEventListener("abort", () => abortController.abort(), { once: true });
+  }
+
   const stream = query({
     prompt: params.prompt,
     options: {
+      abortController,
       model: params.model ?? DEFAULT_MODEL,
       systemPrompt: SYSTEM_PROMPT,
       tools: [],

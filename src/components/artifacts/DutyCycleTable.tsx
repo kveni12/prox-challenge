@@ -58,11 +58,11 @@ function RatedPointsTable({
               </tr>
             </thead>
             <tbody>
-              {points.map((p, i) => {
+              {points.map((p) => {
                 const minutesWelding = p.minutesWelding ?? (p.dutyCyclePercent / 100) * 10;
                 const minutesResting = p.minutesResting ?? 10 - minutesWelding;
                 return (
-                  <tr key={i} className="odd:bg-bg-elevated even:bg-surface">
+                  <tr key={p.dutyCyclePercent} className="odd:bg-bg-elevated even:bg-surface">
                     <td className="border-b border-border px-3 py-2 font-mono font-semibold text-accent">
                       {p.dutyCyclePercent}%
                     </td>

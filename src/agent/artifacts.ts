@@ -1,11 +1,10 @@
 import { z } from "zod";
 import { getDutyCycle } from "@/domain";
 import { lookupDutyCycle } from "@/domain/dutyCycle";
-import { lookupPolarity, listPolarityProcesses } from "@/domain/polarity";
+import { lookupPolarity } from "@/domain/polarity";
 import { getProcessSelection } from "@/domain";
 import { lookupWeldDefect, filterCausesForProcess } from "@/domain/weldDiagnosis";
 import { getManualImages } from "@/domain";
-import type { ProcessId } from "@/domain/types";
 
 /**
  * Every artifact the agent can render is identified by a small enum/id
@@ -90,7 +89,7 @@ export function resolveArtifact(req: ArtifactRequest): ResolvedArtifact {
       if (!defect) {
         throw new Error(`Unknown defect "${req.defectId}" in category "${req.category}"`);
       }
-      const filtered = req.process ? filterCausesForProcess(defect, req.process as ProcessId) : defect;
+      const filtered = req.process ? filterCausesForProcess(defect, req.process) : defect;
       return {
         id,
         type: req.type,
@@ -134,8 +133,4 @@ export function resolveArtifact(req: ArtifactRequest): ResolvedArtifact {
       };
     }
   }
-}
-
-export function knownProcessIds(): string[] {
-  return listPolarityProcesses();
 }

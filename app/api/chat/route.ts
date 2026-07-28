@@ -63,7 +63,7 @@ export async function POST(req: Request) {
       req.signal.addEventListener("abort", abort);
 
       try {
-        for await (const event of runAgentTurn({ prompt: message, resumeSessionId })) {
+        for await (const event of runAgentTurn({ prompt: message, resumeSessionId, signal: req.signal })) {
           if (event.type === "session") {
             sessionMap.set(conversationId, event.sessionId);
           }

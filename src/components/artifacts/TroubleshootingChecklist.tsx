@@ -60,7 +60,7 @@ export function TroubleshootingChecklist({
         {defect.causes.map((c, i) => {
           const isChecked = checked.has(i);
           return (
-            <li key={i}>
+            <li key={c.cause}>
               <label
                 className={`flex cursor-pointer items-start gap-3 rounded-lg border px-3.5 py-3 transition-colors ${
                   isChecked
