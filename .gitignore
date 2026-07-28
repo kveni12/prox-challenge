@@ -1,0 +1,35 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# production
+/build
+
+# env
+.env
+.env.local
+.env*.local
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+
+# dev scratch (python venv used only for one-time manual ingestion)
+.venv/
+.devwork/
+__pycache__/
+
+# eval outputs — eval/results/latest.json is committed intentionally as
+# evidence of a real measured run; scratch console logs are not.
+eval/results/*.log
+
+# testing
+coverage/
+
+# build metadata
+*.tsbuildinfo
