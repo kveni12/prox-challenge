@@ -102,22 +102,22 @@ export function createVulcanTools() {
 
       tool(
         "render_artifact",
-        "Render a grounded interactive/visual artifact for the user: a polarity diagram, a duty-cycle table, a troubleshooting checklist, the process-selector chart, a real manual image, or a MIG-vs-Flux-Cored comparison table. You supply only an id/enum (e.g. which process, which defect) — the server fills in the actual verified data, so you cannot inject unsupported numbers here. Prefer this over describing a diagram, table, or procedure in prose whenever one of these types fits the question.",
+        "Render a grounded interactive/visual artifact for the user: a polarity diagram, a duty-cycle table, a branching troubleshooting flowchart, the process-selector chart, a real manual image, or a MIG-vs-Flux-Cored comparison table. You supply only an id/enum (e.g. which process, which defect) — the server fills in the actual verified data, so you cannot inject unsupported numbers here. Prefer this over describing a diagram, table, or procedure in prose whenever one of these types fits the question.",
         {
           type: z
             .enum([
               "polarity_diagram",
               "duty_cycle_table",
-              "troubleshooting_checklist",
+              "troubleshooting_flowchart",
               "process_selector",
               "manual_image",
               "comparison_table",
             ])
             .describe("Which kind of artifact to render."),
-          process: z.enum(PROCESS_IDS).optional().describe("Required for polarity_diagram and duty_cycle_table; optional filter for troubleshooting_checklist."),
+          process: z.enum(PROCESS_IDS).optional().describe("Required for polarity_diagram and duty_cycle_table; optional filter for troubleshooting_flowchart."),
           voltage: z.enum(["120V", "240V"]).optional().describe("Optional for duty_cycle_table; omit to show both."),
-          category: z.enum(["wireWeld", "stickWeld"]).optional().describe("Required for troubleshooting_checklist."),
-          defectId: z.string().optional().describe("Required for troubleshooting_checklist, e.g. 'wire-porosity'."),
+          category: z.enum(["wireWeld", "stickWeld"]).optional().describe("Required for troubleshooting_flowchart."),
+          defectId: z.string().optional().describe("Required for troubleshooting_flowchart, e.g. 'wire-porosity'."),
           imageId: z.string().optional().describe("Required for manual_image — get this from find_manual_image first."),
           table: z.literal("mig_vs_fluxcored").optional().describe("Required for comparison_table."),
         },

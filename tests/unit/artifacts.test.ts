@@ -25,9 +25,9 @@ describe("resolveArtifact", () => {
     expect(data.tables).toHaveLength(2);
   });
 
-  it("resolves a troubleshooting_checklist and filters causes by process", () => {
+  it("resolves a troubleshooting_flowchart and filters causes by process", () => {
     const req = artifactRequestSchema.parse({
-      type: "troubleshooting_checklist",
+      type: "troubleshooting_flowchart",
       category: "wireWeld",
       defectId: "wire-porosity",
       process: "FluxCored",
@@ -39,7 +39,7 @@ describe("resolveArtifact", () => {
 
   it("throws for an unknown defectId instead of returning empty/undefined", () => {
     const req = artifactRequestSchema.parse({
-      type: "troubleshooting_checklist",
+      type: "troubleshooting_flowchart",
       category: "wireWeld",
       defectId: "does-not-exist",
     });

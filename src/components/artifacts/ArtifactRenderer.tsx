@@ -2,14 +2,14 @@ import type { ResolvedArtifact } from "@/agent/artifacts";
 import { parseCitations } from "@/lib/citations";
 import { PolarityDiagram } from "./PolarityDiagram";
 import { DutyCycleTable } from "./DutyCycleTable";
-import { TroubleshootingChecklist } from "./TroubleshootingChecklist";
+import { TroubleshootingFlowchart } from "./TroubleshootingFlowchart";
 import { ProcessSelector } from "./ProcessSelector";
 import { ManualImageArtifact } from "./ManualImageArtifact";
 import { ComparisonTable } from "./ComparisonTable";
 import {
   asPolarityDiagramData,
   asDutyCycleTableData,
-  asTroubleshootingChecklistData,
+  asTroubleshootingFlowchartData,
   asProcessSelectorData,
   asManualImageData,
   asComparisonTableData,
@@ -37,10 +37,10 @@ export function ArtifactRenderer({ artifact }: { artifact: ResolvedArtifact }) {
       if (!data) return <UnsupportedArtifact title={artifact.title} />;
       return <DutyCycleTable data={data} citations={citations} />;
     }
-    case "troubleshooting_checklist": {
-      const data = asTroubleshootingChecklistData(artifact.data);
+    case "troubleshooting_flowchart": {
+      const data = asTroubleshootingFlowchartData(artifact.data);
       if (!data) return <UnsupportedArtifact title={artifact.title} />;
-      return <TroubleshootingChecklist data={data} citations={citations} />;
+      return <TroubleshootingFlowchart data={data} citations={citations} />;
     }
     case "process_selector": {
       const data = asProcessSelectorData(artifact.data);

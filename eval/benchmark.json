@@ -258,7 +258,7 @@
       "increase the flow of gas"
     ],
     "expectedArtifactTypes": [
-      "troubleshooting_checklist"
+      "troubleshooting_flowchart"
     ],
     "expectedCitationPages": [
       37
@@ -293,7 +293,7 @@
     "category": "troubleshooting",
     "question": "I'm getting excessive spatter in my MIG welds. What should I check?",
     "expectedArtifactTypes": [
-      "troubleshooting_checklist"
+      "troubleshooting_flowchart"
     ],
     "expectedCitationPages": [
       37,

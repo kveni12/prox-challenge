@@ -27,7 +27,7 @@ export const artifactRequestSchema = z.discriminatedUnion("type", [
     voltage: voltageSchema.optional(),
   }),
   z.object({
-    type: z.literal("troubleshooting_checklist"),
+    type: z.literal("troubleshooting_flowchart"),
     category: z.enum(["wireWeld", "stickWeld"]),
     defectId: z.string(),
     process: processIdSchema.optional(),
@@ -84,7 +84,7 @@ export function resolveArtifact(req: ArtifactRequest): ResolvedArtifact {
         citations: [dutyCycleData.source.primary, ...dutyCycleData.source.corroborating],
       };
     }
-    case "troubleshooting_checklist": {
+    case "troubleshooting_flowchart": {
       const [defect] = lookupWeldDefect(req.category, req.defectId);
       if (!defect) {
         throw new Error(`Unknown defect "${req.defectId}" in category "${req.category}"`);

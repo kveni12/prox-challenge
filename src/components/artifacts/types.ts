@@ -11,7 +11,7 @@ export interface DutyCycleTableData {
   definition: string;
 }
 
-export interface TroubleshootingChecklistData {
+export interface TroubleshootingFlowchartData {
   category: "wireWeld" | "stickWeld";
   process?: ProcessId;
   defect: WeldDefect;
@@ -39,10 +39,10 @@ export function asDutyCycleTableData(data: unknown): DutyCycleTableData | null {
   return data as unknown as DutyCycleTableData;
 }
 
-export function asTroubleshootingChecklistData(data: unknown): TroubleshootingChecklistData | null {
+export function asTroubleshootingFlowchartData(data: unknown): TroubleshootingFlowchartData | null {
   if (!isRecord(data)) return null;
   if (!isRecord(data.defect) || !Array.isArray((data.defect as Record<string, unknown>).causes)) return null;
-  return data as unknown as TroubleshootingChecklistData;
+  return data as unknown as TroubleshootingFlowchartData;
 }
 
 export function asProcessSelectorData(data: unknown): ProcessSelectorData | null {
