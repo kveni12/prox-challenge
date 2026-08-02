@@ -1,6 +1,6 @@
 # Vulcan OmniPro 220 Welding Assistant
 
-An expert operating companion for the [Vulcan OmniPro 220](https://www.harborfreight.com/omnipro-220-industrial-multiprocess-welder-with-120240v-input-57812.html) multiprocess welder, built on the **Claude Agent SDK**. It answers deep technical questions about the machine — grounded in its owner's manual, quick-start guide, and process-selection chart — and responds with the format the question actually needs: a direct answer, a grounded interactive diagram, a duty-cycle table, a troubleshooting checklist, or the real manual figure, not just a wall of text.
+An expert operating companion for the [Vulcan OmniPro 220](https://www.harborfreight.com/omnipro-220-industrial-multiprocess-welder-with-120240v-input-57812.html) multiprocess welder, built on the **Claude Agent SDK**. It answers deep technical questions about the machine — grounded in its owner's manual, quick-start guide, and process-selection chart — and responds with the format the question actually needs: a direct answer, a grounded interactive diagram, a duty-cycle table, a branching troubleshooting flowchart, or the real manual figure, not just a wall of text. It also accepts a photo of your weld directly in the composer for a grounded, vision-assisted defect diagnosis.
 
 Built for [Prox](https://useprox.com)'s founding engineer challenge.
 
@@ -136,10 +136,18 @@ Six artifact types, each a purpose-built interactive component (not a generic JS
 |---|---|---|
 | `polarity_diagram` | `polarity.json` | Which cable goes in which socket, the DCEP/DCEN code, and the MIG-vs-Flux-Cored opposite-wiring warning when relevant |
 | `duty_cycle_table` | `duty-cycle.json` | The exact 3-point rated table per voltage, plus a client-side duty-cycle-% → minutes calculator (pure arithmetic, always correct, visually distinct from the "documented rated point" data so nothing reads as a fabricated machine capability) |
-| `troubleshooting_checklist` | `weld-diagnosis.json` | An interactive checklist of cause → solution, filtered to the causes that actually apply to the process in question |
+| `troubleshooting_flowchart` | `weld-diagnosis.json` | A branching step-by-step flow through the documented causes, one at a time ("does this match? yes → fix, no → next cause"), filtered to the causes that actually apply to the process in question |
 | `process_selector` | `process-selection.json` | The full process-comparison chart as an interactive picker |
 | `manual_image` | `manual-images.json` + `public/manual/*.png` | The real manual figure (wiring schematic, front-panel controls, the selection chart), with click-to-zoom |
 | `comparison_table` | `process-selection.json` | The MIG-vs-Flux-Cored checkmark comparison table |
+
+The troubleshooting artifact is a **branching flowchart, not a flat checklist** — the original brief calls this out explicitly as an example of interactive content worth building. Rather than dumping every possible cause on screen at once, the component walks the user through one documented cause at a time ("does this match what you're seeing?"); "yes" reveals the grounded fix and stops, "no" advances to the next cause, and running out of causes surfaces a fallback pointing to the manual page and support number instead of silently doing nothing. It's still driven entirely by `weld-diagnosis.json` — the branching is a client-side presentation of the same verified cause/solution list, not new data or a new grounding path.
+
+### Photo-based weld diagnosis
+
+The user can attach a photo of their weld directly in the composer (paperclip icon, JPEG/PNG/WebP, 8MB cap). The image is sent as a real multimodal turn — a base64 image content block alongside the text, constructed as an `SDKUserMessage` and passed to the Agent SDK's `query()` as an async-iterable prompt (`prompt: string | AsyncIterable<SDKUserMessage>`) instead of the usual plain string, since a bare string can only ever become a text block. The system prompt instructs the agent to describe what it actually sees, ask for the process (MIG/Flux-Cored/TIG/Stick) if it's not stated and matters for cause-filtering, and — once it's identified the likely defect — render the same grounded `troubleshooting_flowchart` artifact a text-described defect would get, rather than just describing a fix in prose.
+
+**This is honestly scoped, not oversold**: there is no reference-photo corpus in this repo to match the upload against pixel-for-pixel (the manual's own weld-diagnosis section is text descriptions, not a labeled photo set — see [Limitations](#limitations)). The system prompt requires the agent to say plainly that a photo diagnosis is its visual impression, not a certified or pixel-matched result, and to ask for a clearer photo rather than guess when the image is ambiguous.
 
 ## Citations and grounding
 
@@ -197,6 +205,8 @@ By category (all 13 required categories, all 100%):
 | | | Safety | 6/6 |
 
 Full transcripts, tool calls, and artifacts rendered per case are in `eval/results/latest.json` (committed as evidence of this run).
+
+The `troubleshooting_checklist` artifact was later renamed to `troubleshooting_flowchart` (see [Multimodal responses](#multimodal-responses-artifacts)) — a pure rename of the same grounded resolution path, not new logic. Re-ran the three affected cases (`npm run eval -- --ids=t1,t4,t6`) against the live agent after the rename: **3/3 pass**, including `t1`'s Flux-Cored-must-not-suggest-gas-flow check and both cases' `expectedArtifactTypes` check against the new type name. The full 62-case evidence file above predates the rename and still reflects the same underlying behavior.
 
 **This wasn't reached by loosening the grading — three earlier runs surfaced 6 real failures, and iterating on the *actual cause* fixed every one:**
 
@@ -260,6 +270,7 @@ The API route (`app/api/chat/route.ts`) and agent runner (`src/agent/run.ts`) ha
 - Retrieval is lexical; a paraphrase that shares no vocabulary with the manual's own wording can under-retrieve. Mitigated by the deterministic domain tools covering the highest-value factual surface (duty cycle, polarity) independent of retrieval.
 - `controls.json`, `maintenance.json`, and `parts.json` are extracted and available but not yet wired into a dedicated lookup tool (they're reachable via `search_manual`'s retrieval over `chunks.json`, which does cover their content, just not with the same deterministic-lookup guarantee as duty-cycle/polarity).
 - No voice interface, despite the challenge mentioning it as an option — out of scope given the time budget; text + visual artifacts were prioritized as the higher-leverage multimodal investment for this specific manual (which is diagram/table-dense, not audio-dense).
+- Photo-based weld diagnosis has no reference-photo corpus to compare against — the manual's weld-diagnosis section is text descriptions, not annotated photos, so a diagnosis is Claude's vision compared against those *descriptions*, not a pixel-matched result (the system prompt requires the agent to say so explicitly). It's also outside the automated eval harness: `BenchmarkCase` is a text-only question schema with no image field, so this path was verified manually in the browser (upload → multimodal turn → grounded artifact), not by the 62-case suite.
 - No dedicated performance benchmarking (Lighthouse, load testing, p95 latency under concurrent load) was run — this environment doesn't have that tooling available. What *is* measured: the full test suite, the full 62-case eval suite, and manual verification (desktop/tablet/mobile viewports, light/dark themes, live multi-turn conversations) in a real browser against the live agent. Retrieval itself (`src/retrieval/bm25.ts`) is a synchronous in-memory scan over 144 chunks — sub-millisecond by construction — so the dominant latency in any response is Anthropic API + tool-call round trips, not this app's own code.
 
 ## Future improvements
@@ -269,6 +280,8 @@ The API route (`app/api/chat/route.ts`) and agent runner (`src/agent/run.ts`) ha
 - Streaming artifact updates (e.g. live-highlight the relevant row in a duty-cycle table as the agent explains it).
 - A citation-hover preview showing the actual retrieved excerpt text inline, not just doc+page.
 - Expand the safety benchmark's LLM-judge into a 3-vote adversarial panel for the highest-stakes cases, per the challenge's guidance on borderline-case judging.
+- A small, properly licensed reference-photo corpus per weld defect, so photo diagnosis becomes a genuine visual comparison instead of vision-vs-text-description matching.
+- Extend the eval harness (`BenchmarkCase`) to support an optional image fixture per case, so the photo-diagnosis path gets automated regression coverage instead of manual-only verification.
 
 ## Commands reference
 
