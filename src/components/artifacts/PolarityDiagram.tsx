@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Citation } from "@/domain/types";
 import { ArtifactShell } from "./ArtifactShell";
 import type { PolarityDiagramData } from "./types";
@@ -11,32 +12,55 @@ function splitSteps(instructions: string): string[] {
     .filter(Boolean);
 }
 
-function Socket({
+/**
+ * Pixel-verified against the real product photo (public/product-front-panel.webp,
+ * 1200x1200): the two live sockets sit at these coordinates regardless of which
+ * process is being explained, so the marker position is fixed while only the
+ * label/color per socket changes with `data`.
+ */
+const SOCKET_POSITION = {
+  negative: { left: "68.7%", top: "79.6%" },
+  positive: { left: "85%", top: "80%" },
+} as const;
+
+function SocketHotspot({
   polarity,
   cableName,
+  labelSide,
 }: {
   polarity: "positive" | "negative";
   cableName: string;
+  labelSide: "left" | "right";
 }) {
   const isPositive = polarity === "positive";
+  const position = SOCKET_POSITION[polarity];
   return (
-    <div className="flex flex-1 flex-col items-center gap-3 rounded-xl border border-[#4b4029] bg-[#221c14] p-4 text-center">
-      <span
-        className={`flex h-14 w-14 items-center justify-center rounded-full border-4 font-mono text-2xl font-bold ${
+    <div
+      className="absolute flex flex-col items-center"
+      style={{ left: position.left, top: position.top, transform: "translate(-50%, -100%)" }}
+    >
+      <div
+        className={`whitespace-nowrap rounded-lg border px-2.5 py-1.5 text-center shadow-lg ${
           isPositive
-            ? "border-positive text-positive bg-positive-soft"
-            : "border-negative text-negative bg-negative-soft"
-        }`}
+            ? "border-positive/50 bg-positive-soft/95"
+            : "border-negative/50 bg-negative-soft/95"
+        } ${labelSide === "right" ? "translate-x-[38%]" : "-translate-x-[38%]"}`}
+      >
+        <p className={`font-mono text-[0.62rem] font-bold uppercase tracking-wide ${isPositive ? "text-positive" : "text-negative"}`}>
+          {isPositive ? "+ Positive" : "− Negative"}
+        </p>
+        <p className="text-[0.68rem] font-medium leading-tight text-[#1a1610]">{cableName}</p>
+      </div>
+      <span
         aria-hidden="true"
+        className={`mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full border-2 font-mono text-xs font-bold ring-4 ring-black/20 ${
+          isPositive
+            ? "border-positive bg-positive text-white"
+            : "border-negative bg-negative text-white"
+        }`}
       >
         {isPositive ? "+" : "−"}
       </span>
-      <div>
-        <p className={`font-mono text-xs font-bold uppercase tracking-wide ${isPositive ? "text-positive" : "text-negative"}`}>
-          {isPositive ? "Positive Socket" : "Negative Socket"}
-        </p>
-        <p className="mt-1 text-sm font-medium text-[#f3ede1]">{cableName}</p>
-      </div>
     </div>
   );
 }
@@ -70,20 +94,29 @@ export function PolarityDiagram({ data, citations }: { data: PolarityDiagramData
 
       <p className="mb-4 text-xs text-fg-subtle">{data.polarityName}</p>
 
-      <div className="mb-4 rounded-xl border border-[#382f20] bg-[#17130d] p-4">
-        <p className="mb-3 text-center font-mono text-[0.65rem] uppercase tracking-widest text-[#8a7d67]">
-          Front Panel Sockets
+      <div className="relative mb-4 overflow-hidden rounded-xl border border-border bg-[#0c0a06] pt-3">
+        <p className="mb-1 text-center font-mono text-[0.62rem] uppercase tracking-widest text-[#8a7d67]">
+          Actual Front-Panel Sockets — Vulcan OmniPro 220
         </p>
-        <div className="flex flex-col gap-3 sm:flex-row">
-          <Socket polarity="negative" cableName={negativeCable} />
-          <Socket polarity="positive" cableName={positiveCable} />
+        <div className="relative mx-auto w-full max-w-md">
+          <Image
+            src="/product-front-panel.webp"
+            alt="Vulcan OmniPro 220 front panel, showing the two output sockets"
+            width={1200}
+            height={1200}
+            sizes="(max-width: 640px) 90vw, 448px"
+            className="h-auto w-full select-none"
+            priority={false}
+          />
+          <SocketHotspot polarity="negative" cableName={negativeCable} labelSide="left" />
+          <SocketHotspot polarity="positive" cableName={positiveCable} labelSide="right" />
         </div>
       </div>
 
       {steps.length > 0 ? (
         <ol className="flex flex-col gap-2">
           {steps.map((step, i) => (
-            <li key={i} className="flex gap-2.5 text-sm text-fg">
+            <li key={step} className="flex gap-2.5 text-sm text-fg">
               <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-surface-2 font-mono text-[0.7rem] font-semibold text-fg-muted">
                 {i + 1}
               </span>
