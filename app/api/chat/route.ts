@@ -1,4 +1,4 @@
-import { runAgentTurn } from "@/agent/run";
+import { runAgentTurn, type ImageAttachment } from "@/agent/run";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -8,9 +8,31 @@ export const dynamic = "force-dynamic";
 // restart. A production deployment would persist this in a datastore.
 const sessionMap = new Map<string, string>();
 
+const ALLOWED_IMAGE_TYPES = new Set(["image/jpeg", "image/png", "image/webp"]);
+// Base64 inflates raw bytes by ~33% — this comfortably covers the Composer's
+// 8MB client-side file cap with headroom, while still bounding request size.
+const MAX_IMAGE_BASE64_CHARS = 14_000_000;
+
 interface ChatRequestBody {
   message?: unknown;
   conversationId?: unknown;
+  image?: unknown;
+}
+
+function parseImage(raw: unknown): { image?: ImageAttachment; error?: string } {
+  if (raw === undefined || raw === null) return {};
+  if (typeof raw !== "object") return { error: "image must be an object." };
+  const { mediaType, data } = raw as Record<string, unknown>;
+  if (typeof mediaType !== "string" || !ALLOWED_IMAGE_TYPES.has(mediaType)) {
+    return { error: "image.mediaType must be one of image/jpeg, image/png, image/webp." };
+  }
+  if (typeof data !== "string" || data.length === 0) {
+    return { error: "image.data must be a non-empty base64 string." };
+  }
+  if (data.length > MAX_IMAGE_BASE64_CHARS) {
+    return { error: "Attached photo is too large." };
+  }
+  return { image: { mediaType: mediaType as ImageAttachment["mediaType"], data } };
 }
 
 function sse(data: object): Uint8Array {
@@ -55,6 +77,11 @@ export async function POST(req: Request) {
     );
   }
 
+  const { image, error: imageError } = parseImage(body.image);
+  if (imageError) {
+    return Response.json({ error: "invalid_image", message: imageError }, { status: 400 });
+  }
+
   const resumeSessionId = sessionMap.get(conversationId);
 
   const stream = new ReadableStream<Uint8Array>({
@@ -63,7 +90,7 @@ export async function POST(req: Request) {
       req.signal.addEventListener("abort", abort);
 
       try {
-        for await (const event of runAgentTurn({ prompt: message, resumeSessionId, signal: req.signal })) {
+        for await (const event of runAgentTurn({ prompt: message, image, resumeSessionId, signal: req.signal })) {
           if (event.type === "session") {
             sessionMap.set(conversationId, event.sessionId);
           }

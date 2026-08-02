@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { ResolvedArtifact } from "@/agent/artifacts";
+import type { ImageAttachment } from "@/agent/run";
 
 export type AgentEvent =
   | { type: "text_delta"; text: string }
@@ -33,6 +34,8 @@ export interface ChatMessage {
   id: string;
   role: "user" | "assistant";
   text: string;
+  /** A photo the user attached to this message (weld-diagnosis flow). */
+  image?: ImageAttachment;
   artifacts: ResolvedArtifact[];
   toolCalls: string[];
   status: "streaming" | "done" | "error";
@@ -115,7 +118,7 @@ export function useChat() {
   );
 
   const runStream = useCallback(
-    async (assistantId: string, text: string) => {
+    async (assistantId: string, text: string, image?: ImageAttachment) => {
       const controller = new AbortController();
       abortRef.current = controller;
       setState((prev) => ({ ...prev, isStreaming: true, fatalError: null }));
@@ -124,7 +127,7 @@ export function useChat() {
         const res = await fetch("/api/chat", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ message: text, conversationId: conversationIdRef.current }),
+          body: JSON.stringify({ message: text, image, conversationId: conversationIdRef.current }),
           signal: controller.signal,
         });
 
@@ -201,15 +204,16 @@ export function useChat() {
   );
 
   const sendMessage = useCallback(
-    (text: string) => {
+    (text: string, image?: ImageAttachment) => {
       const trimmed = text.trim();
-      if (!trimmed || state.isStreaming) return;
+      if ((!trimmed && !image) || state.isStreaming) return;
       lastUserTextRef.current = trimmed;
 
       const userMessage: ChatMessage = {
         id: nextId("user"),
         role: "user",
         text: trimmed,
+        image,
         artifacts: [],
         toolCalls: [],
         status: "done",
@@ -229,7 +233,7 @@ export function useChat() {
         messages: [...prev.messages, userMessage, assistantMessage],
       }));
 
-      void runStream(assistantId, trimmed);
+      void runStream(assistantId, trimmed, image);
     },
     [runStream, state.isStreaming],
   );

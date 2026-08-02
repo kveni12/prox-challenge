@@ -154,3 +154,11 @@ export function WrenchIcon(props: IconProps) {
     </svg>
   );
 }
+
+export function PaperclipIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="M20.5 12.5 12.9 20a4.5 4.5 0 0 1-6.4-6.4l8.5-8.5a3 3 0 0 1 4.2 4.2L10.7 17.8a1.5 1.5 0 0 1-2.1-2.1l7-7" />
+    </svg>
+  );
+}

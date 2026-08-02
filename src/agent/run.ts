@@ -1,4 +1,4 @@
-import { query } from "@anthropic-ai/claude-agent-sdk";
+import { query, type SDKUserMessage } from "@anthropic-ai/claude-agent-sdk";
 import { SYSTEM_PROMPT } from "./systemPrompt";
 import { createVulcanTools } from "./tools";
 import type { ResolvedArtifact } from "./artifacts";
@@ -11,12 +11,39 @@ export type AgentEvent =
   | { type: "error"; message: string; code?: string }
   | { type: "done" };
 
+export interface ImageAttachment {
+  mediaType: "image/jpeg" | "image/png" | "image/webp";
+  /** Raw base64 payload, no "data:image/...;base64," prefix. */
+  data: string;
+}
+
 export interface RunAgentTurnParams {
   prompt: string;
+  /** A user-attached photo (e.g. of a weld) for the photo-diagnosis flow. */
+  image?: ImageAttachment;
   resumeSessionId?: string;
   model?: string;
   /** Aborted when the client disconnects, so an abandoned turn doesn't keep calling tools and spending API budget for a response nobody will see. */
   signal?: AbortSignal;
+}
+
+/**
+ * The Agent SDK's `prompt` accepts a plain string or an async iterable of
+ * SDKUserMessages — the latter is required to attach an image content block,
+ * since a bare string can only ever become a text block.
+ */
+async function* buildMultimodalPrompt(text: string, image: ImageAttachment): AsyncIterable<SDKUserMessage> {
+  yield {
+    type: "user",
+    message: {
+      role: "user",
+      content: [
+        { type: "image", source: { type: "base64", media_type: image.mediaType, data: image.data } },
+        { type: "text", text },
+      ],
+    },
+    parent_tool_use_id: null,
+  };
 }
 
 const DEFAULT_MODEL = process.env.CLAUDE_MODEL || "claude-opus-5";
@@ -62,8 +89,10 @@ export async function* runAgentTurn(params: RunAgentTurnParams): AsyncGenerator<
     else params.signal.addEventListener("abort", () => abortController.abort(), { once: true });
   }
 
+  const promptInput = params.image ? buildMultimodalPrompt(params.prompt, params.image) : params.prompt;
+
   const stream = query({
-    prompt: params.prompt,
+    prompt: promptInput,
     options: {
       abortController,
       model: params.model ?? DEFAULT_MODEL,

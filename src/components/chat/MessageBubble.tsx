@@ -1,6 +1,7 @@
 "use client";
 
 import type { ChatMessage } from "@/hooks/useChat";
+import type { ImageAttachment } from "@/agent/run";
 import { useStreamAnnouncement } from "@/hooks/useStreamAnnouncement";
 import { MarkdownMessage } from "./MarkdownMessage";
 import { ArtifactRenderer } from "@/components/artifacts/ArtifactRenderer";
@@ -9,11 +10,19 @@ import { ErrorBanner } from "./ErrorBanner";
 import { SourcesStrip } from "./SourcesStrip";
 import { parseCitations, dedupeCitations, extractInlineCitations, linkifyCitations } from "@/lib/citations";
 
-function UserBubble({ text }: { text: string }) {
+function UserBubble({ text, image }: { text: string; image?: ImageAttachment }) {
   return (
     <div className="flex justify-end">
       <div className="max-w-[85%] rounded-2xl rounded-br-md bg-accent px-4 py-2.5 text-sm text-accent-fg shadow-sm sm:max-w-[75%]">
-        <p className="whitespace-pre-wrap leading-relaxed">{text}</p>
+        {image ? (
+          // eslint-disable-next-line @next/next/no-img-element -- user-uploaded data URL, not an optimizable remote asset
+          <img
+            src={`data:${image.mediaType};base64,${image.data}`}
+            alt="Attached weld photo"
+            className="mb-2 max-h-64 w-full rounded-lg object-cover"
+          />
+        ) : null}
+        {text ? <p className="whitespace-pre-wrap leading-relaxed">{text}</p> : null}
       </div>
     </div>
   );
@@ -72,6 +81,6 @@ function AssistantBubble({ message, onRetry }: { message: ChatMessage; onRetry: 
 }
 
 export function MessageBubble({ message, onRetry }: { message: ChatMessage; onRetry: () => void }) {
-  if (message.role === "user") return <UserBubble text={message.text} />;
+  if (message.role === "user") return <UserBubble text={message.text} image={message.image} />;
   return <AssistantBubble message={message} onRetry={onRetry} />;
 }
